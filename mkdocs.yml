@@ -1,4 +1,4 @@
-site_name: EGR 314 Team 304 - Hafsa K Datasheet
+site_name: EGR 314 Kaysan Datasheet
 site_url: https://hfsksn.github.io/
 repo_url: https://github.com/HFSKSN/hfsksn.github.io
 edit_uri: edit/main/docs/
@@ -59,7 +59,7 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2026 Team 304"
+copyright: "Copyright &copy; 2026 Kaysan"
 
 extra:
   generator: false

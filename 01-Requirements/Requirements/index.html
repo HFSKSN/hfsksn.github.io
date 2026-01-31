@@ -825,7 +825,7 @@
   <h1>Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the this module need to fulfills to .....</p>
+<p>The following sections document the requirements that the User Interface module needs to fulfill in order to allow the user to directly interact with the automated telescope, input commands, and view the data collected by the other modules.</p>
 <table>
 <thead>
 <tr>
@@ -837,15 +837,15 @@
 </thead>
 <tbody>
 <tr>
-<td>Surface mounted, 3.3V switching power regulatore</td>
+<td>Surface-mounted 3.3V switching power regulator</td>
 <td>3.2 Volts</td>
 <td>3.3 Volts</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
-<td>Surface mounted microcontroller</td>
+<td>Surface-mounted microcontroller</td>
 <td>1 PIC or ESP</td>
-<td>8-bit PIC</td>
+<td>ESP32</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
@@ -855,10 +855,28 @@
 <td style="text-align: center;">Yes</td>
 </tr>
 <tr>
-<td><em>Rest are items your modules needs to support the task you are covering for the team's device.</em></td>
+<td>Surface-mounted Display</td>
+<td>Able to display relevent data collected by sensor modules</td>
 <td>---</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Surface-mounted Controls</td>
+<td>Able to</td>
 <td>---</td>
-<td style="text-align: center;"><strong>NO</strong></td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>UART Communication</td>
+<td>Able to send or receive data</td>
+<td>Send and receive data as main hub for modules</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Surface-mounted Storage Device</td>
+<td>Able to store data</td>
+<td>Stores sensor data and can be ejected from housing</td>
+<td style="text-align: center;">Yes</td>
 </tr>
 </tbody>
 </table>

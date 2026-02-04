@@ -21,4 +21,5 @@ To get some initial formatting help, one can view ["here"](https://embedded-syst
 ## Block Diagram 
 
 ![Example of Individual Block diagram ](EGR314_BlockDiagram.drawio.png)
-Figure 1: Individual Block Diagram for main hub module with display, controller, Wi-Fi, and UART pinouts
+
+**Figure 1:** Individual Block Diagram for main hub module with display, controller, Wi-Fi, and UART pinouts

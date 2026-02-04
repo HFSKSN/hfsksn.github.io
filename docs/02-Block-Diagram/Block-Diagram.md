@@ -18,7 +18,7 @@ Things to mention are:
 To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
 
 
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
+## Block Diagram 
 
-![Example of Indivial Block diagram ](EGR314_BlockDiagram.drawio.png)
+![Example of Individual Block diagram ](EGR314_BlockDiagram.drawio.png)
+Figure 1: Individual Block Diagram for main hub module with display, controller, Wi-Fi, and UART pinouts

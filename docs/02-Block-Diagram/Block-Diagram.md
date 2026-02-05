@@ -11,4 +11,4 @@ The purpose of this block diagram is to display what is necessary for the subsys
 ## Block Diagram 
 ![Example of Individual Block diagram ](EGR314_BlockDiagram.drawio.png)
 
-**Figure 1:** Individual Block Diagram for main hub module with display, controller, and UART pinouts
+**Figure 1:** Individual Block Diagram for main hub module with display, controller, and UART pinouts. PDF version [*here*](EGR314_BlockDiagram.drawio.pdf)

@@ -17,7 +17,7 @@ The following sections are the selected major components necessary for the Human
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Components provided by course             | Cannot change voltage setting after it has been soldered         |
-    | Can be deconstructed if needed            | Requires more traces on PCB                                       |
+    | Can be deconstructed if needed            | Requires more traces on PCB                                      |
     |                                           | Components provided need pliers to meet surface mount constraint |
 
 2. LM2575 Regulator Circuit
@@ -29,10 +29,22 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Unable to replace parts of circuit if needed                     |         | Meets surface mount constraint of project |                                                                  |
+    | Provided by course                        | Unable to replace parts of circuit if needed                     |         | Meets surface mount constraint of project | Takes up space on PCB                                            |
     | Can change voltage settings after it has been soldered if needed (0V/3.3V/5V) |                              |
 
-3.
+3. LM2575 Regulator Circuit
+
+    ![](image1.png)
+
+    * $2.16/each
+    * [link to product](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Provided by course                        | Unable to replace parts of circuit if needed                     |         | Meets surface mount constraint of project | Takes up space on PCB                                            |
+    | Can change voltage settings after it has been soldered if needed (0V/3.3V/5V) |                              |
+   
+**Rationale:** The course-provided LM2575 regulator circuit is the best fit for this module because it is the easiest to use for debugging and testing due to it being already prepared for use, it has multiple rails and power settings, and it has a switch to turn power on and off.
 
 ### Sensor
 

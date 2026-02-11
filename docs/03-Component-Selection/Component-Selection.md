@@ -65,7 +65,7 @@ The following sections are the selected major components necessary for the Human
 
 2. 10k Potentiometer
 
-    ![](image1.png)
+    ![](PDB181-K220K-104B.jpg)
 
     * $1.30/each
     * [link to product](https://www.digikey.com/en/products/detail/bourns-inc/PDB181-K420K-103B/2564744?gclsrc=aw.ds&gad_source=1&gad_campaignid=20504615262&gbraid=0AAAAADrbLlhbZlKJDuY9Fz_HBeq6PPHa2&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEAze5-TDhEY5fqmwQEW-UMyNoQRK8p2a5l4NHsZZxzEn08dejNrVoYaArlTEALw_wcB)

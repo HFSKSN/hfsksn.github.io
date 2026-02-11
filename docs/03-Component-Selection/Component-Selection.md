@@ -27,10 +27,11 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Unable to replace parts of circuit if needed                     |         | Meets surface mount constraint of project | Takes up space on PCB                                            |
+    | Provided by course                        | Unable to replace parts of circuit if needed                     |
+    | Meets surface mount constraint of project | Takes up space on PCB                                            |
     | Can change voltage settings after it has been soldered if needed (0V/3.3V/5V) |                              |
 
-3. BU33UV7NUX-E2 Regulator
+4. BU33UV7NUX-E2 Regulator
 
     ![](846_VSON010X3020_10.jpg)
 
@@ -39,7 +40,7 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Unable to replace parts of circuit if needed                     |         | Meets surface mount constraint of project | Takes up space on PCB                                            |
+    | Meets surface mount constraint of project | Requires external components                                     |
    
 **Rationale:** The course-provided LM2575 regulator circuit is the best fit for this module because it is the easiest to use for debugging and testing due to it being already prepared for use, it has multiple rails and power settings, and it has a switch to turn power on and off.
 

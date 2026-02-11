@@ -8,9 +8,33 @@ The following sections are the selected major components necessary for the Human
 
 ### Power Management
 
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
+**Voltage Regulator**
 
-For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
+1. LM7805 + DIY circuit
+
+    ![](image1.png)
+
+    * $1/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Components provided by course             |                                  |
+    | x                | Requires more space on PCB                    |
+    |                                           |                                              |
+
+2. Regulator Circuit
+
+    ![](image1.png)
+
+    * $1/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Provided by course                        | Unable to replace parts of circuit if needed                     |
+    | Requires few traces in PCB                | Needs pliers to meet surface mount constraint                    |
+    | Can provide 3.3V and 5V to PCB different components simultaneously                                           |
 
 ### Sensor
 
@@ -25,11 +49,11 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Provided by course                        | Might require de-bounce circuit                                  |
+    | Requires few traces in PCB                | Needs pliers to meet surface mount constraint                    |
+    |                                           | May wear down easily                                             |
 
-1. Potentiometers
+2. Potentiometers
 
     ![](image1.png)
 
@@ -39,8 +63,8 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Provided by course                        | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Allows for                       | Needs pliers to meet surface mount constraint                    |
+    |                                           | |
 
 3. Potentiometers
 
@@ -51,14 +75,11 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    |                         | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs several traces and pinouts                                 |
     | Meets surface mount constraint of project |
 
 **Rationale:** A clock oscillator is easier ...
-
-
-For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
 
 ### Actuator
 
@@ -104,5 +125,3 @@ For more details, review the ["Appendix - Component Selection Process - Sensor"]
     | Meets surface mount constraint of project |
 
 **Rationale:** A clock oscillator is easier ...
-
-For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.

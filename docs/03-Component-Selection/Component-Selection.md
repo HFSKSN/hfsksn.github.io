@@ -95,7 +95,7 @@ The following sections are the selected major components necessary for the Human
 
 1. SSD1306 0.96"
 
-    ![](image1.png)
+    ![](41qBPSM9XqL._AC_SX425_.jpg)
 
     * $1/each
     * [link to product](https://www.amazon.com/Songhe-0-96-inch-I2C-Raspberry/dp/B085WCRS7C/)

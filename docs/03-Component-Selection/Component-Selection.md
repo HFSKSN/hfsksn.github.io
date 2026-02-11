@@ -52,7 +52,7 @@ The following sections are the selected major components necessary for the Human
 
 1. Pushbutton Switches
 
-    ![](image1.png)
+    ![](pushbutton.jpeg)
 
     * $0.10/each
     * [link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS02-66-70-BK-100-LCR-D/15634375?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgyNuYs-cl0PtfhcjKVghZ2g&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuED1I2dSinnbzKlKYw7YbFCBgHToXbUx1UQH2Z5pEn1AzISfxalpZysaAujTEALw_wcB)

@@ -102,9 +102,8 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Requires external components and support circuitry for interface |
-    | Compatible with ESP32                     | Small Screen                                                     |
-    | Meets surface mount constraint of project |                                                                  |
+    | Provided by course                        | Small Screen                                                     |
+    | Compatible with ESP32                     | Needs to be desoldered for surface mount                         |
 
 2. XC1259TR-ND surface mount crystal
 

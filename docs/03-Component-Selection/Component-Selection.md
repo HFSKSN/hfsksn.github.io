@@ -12,8 +12,6 @@ The following sections are the selected major components necessary for the Human
 
 1. Custom Circuit
 
-    ![](image1.png)
-
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Components provided by course             | Cannot change voltage setting after it has been soldered         |

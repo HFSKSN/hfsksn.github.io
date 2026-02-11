@@ -14,13 +14,10 @@ The following sections are the selected major components necessary for the Human
 
     ![](image1.png)
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Components provided by course             | Cannot change voltage setting after it has been soldered         |
-    | Can be deconstructed if needed            | Requires more space on PCB                                       |
+    | Can be deconstructed if needed            | Requires more traces on PCB                                       |
     |                                           | Components provided need pliers to meet surface mount constraint |
 
 2. Regulator Circuit
@@ -32,8 +29,7 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Unable to replace parts of circuit if needed                     |
-    | Requires few traces in PCB                | Needs pliers to meet surface mount constraint                    |
+    | Provided by course                        | Unable to replace parts of circuit if needed                     |         | Meets surface mount constraint of project |                                                                  |
     | Can change voltage settings after it has been soldered if needed (0V/3.3V/5V) |                              |
 
 ### Sensor
@@ -122,4 +118,4 @@ The following sections are the selected major components necessary for the Human
     | Compatible with PSoC                      | Needs special PCB layout.                                        |
     | Meets surface mount constraint of project |
 
-**Rationale:** A clock oscillator is easier ...
+**Rationale:** The OLED screen . If needed, multiple OLED screens can be used with each displaying different data for the user.

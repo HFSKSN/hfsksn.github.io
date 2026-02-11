@@ -19,9 +19,9 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Components provided by course             |                                  |
-    | x                | Requires more space on PCB                    |
-    |                                           |                                              |
+    | Components provided by course             | Cannot change voltage setting after it has been soldered         |
+    | Can be deconstructed if neede             | Requires more space on PCB                                       |
+    |                                           | Components need pliers to meet surface mount constraint          |
 
 2. Regulator Circuit
 
@@ -34,7 +34,7 @@ The following sections are the selected major components necessary for the Human
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Provided by course                        | Unable to replace parts of circuit if needed                     |
     | Requires few traces in PCB                | Needs pliers to meet surface mount constraint                    |
-    | Can change voltage settings (0V/3.3V/5V)  |                                                                  |
+    | Can change voltage settings after it has been soldered if needed (0V/3.3V/5V) |                              |
 
 ### Sensor
 

@@ -20,17 +20,19 @@ The following sections are the selected major components necessary for the Human
     | Can be deconstructed if needed            | Requires more traces on PCB                                       |
     |                                           | Components provided need pliers to meet surface mount constraint |
 
-2. Regulator Circuit
+2. LM2575 Regulator Circuit
 
     ![](image1.png)
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $2.16/each
+    * [link to product](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Provided by course                        | Unable to replace parts of circuit if needed                     |         | Meets surface mount constraint of project |                                                                  |
     | Can change voltage settings after it has been soldered if needed (0V/3.3V/5V) |                              |
+
+3.
 
 ### Sensor
 

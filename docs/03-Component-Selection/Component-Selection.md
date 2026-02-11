@@ -50,7 +50,7 @@ The following sections are the selected major components necessary for the Human
 
 **Interface Inputs**
 
-1. Pushbutton Switches
+1. Pushbutton Switch
 
     ![](pushbutton.jpeg)
 
@@ -63,12 +63,12 @@ The following sections are the selected major components necessary for the Human
     | Requires few traces in PCB                | Needs pliers to meet surface mount constraint                    |
     | Inexpensive                               | May wear down easily                                             |
 
-2. Potentiometers
+2. 10k Potentiometer
 
     ![](image1.png)
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $1.30/each
+    * [link to product](https://www.digikey.com/en/products/detail/bourns-inc/PDB181-K420K-103B/2564744?gclsrc=aw.ds&gad_source=1&gad_campaignid=20504615262&gbraid=0AAAAADrbLlhbZlKJDuY9Fz_HBeq6PPHa2&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEAze5-TDhEY5fqmwQEW-UMyNoQRK8p2a5l4NHsZZxzEn08dejNrVoYaArlTEALw_wcB)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |

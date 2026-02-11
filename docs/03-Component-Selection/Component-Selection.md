@@ -20,7 +20,7 @@ The following sections are the selected major components necessary for the Human
 
 2. LM2575 Regulator Circuit
 
-    ![](image1.png)
+    ![](lm2575.png)
 
     * $2.16/each
     * [link to product](https://www.digikey.com/en/products/detail/onsemi/LM2575D2T-3-3R4G/1476688)

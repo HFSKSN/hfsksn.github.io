@@ -10,7 +10,7 @@ The following sections are the selected major components necessary for the Human
 
 **Voltage Regulator**
 
-1. LM7805 + DIY circuit
+1. Custom Circuit
 
     ![](image1.png)
 
@@ -20,7 +20,7 @@ The following sections are the selected major components necessary for the Human
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Components provided by course             | Cannot change voltage setting after it has been soldered         |
-    | Can be deconstructed if neede             | Requires more space on PCB                                       |
+    | Can be deconstructed if needed            | Requires more space on PCB                                       |
     |                                           | Components need pliers to meet surface mount constraint          |
 
 2. Regulator Circuit

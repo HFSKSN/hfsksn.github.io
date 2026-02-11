@@ -68,16 +68,15 @@ The following sections are the selected major components necessary for the Human
 
 3. Joystick Potentiometer
 
-    ![](image1.png)
+    ![](MFG_FJ05K-S1B5KB0.jpg)
 
     * $5.73/each
     * [link to product](https://www.digikey.com/en/products/detail/favor-electronics/FJ05K-S1B5KB0/16893757?s=N4IgjCBcoExgbFUBjKAzAhgGwM4FMAaEAeygG0QAWABgGYBWAThAF0iAHAFyhAGVOATgEsAdgHMQAX2lA)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    |                         | Expensive |
     | Meets surface mount consraint of project  | Needs several traces and pinouts                                 |
-    | Allows for analog input                   |                                                                  |
+    | Allows for analog input                   | Expensive                                                        |
 
 **Rationale:** A clock oscillator is easier ...
 

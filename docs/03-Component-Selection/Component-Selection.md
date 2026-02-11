@@ -34,7 +34,7 @@ The following sections are the selected major components necessary for the Human
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Provided by course                        | Unable to replace parts of circuit if needed                     |
     | Requires few traces in PCB                | Needs pliers to meet surface mount constraint                    |
-    | Can provide 3.3V and 5V to PCB different components simultaneously                                           |
+    | Can change voltage settings (0V/3.3V/5V)  |                                                                  |
 
 ### Sensor
 

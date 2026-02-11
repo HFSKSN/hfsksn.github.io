@@ -105,18 +105,17 @@ The following sections are the selected major components necessary for the Human
     | Provided by course                        | Small Screen                                                     |
     | Compatible with ESP32                     | Needs to be desoldered for surface mount                         |
 
-2. XC1259TR-ND surface mount crystal
+2. WEX025664BSPP3N00000 3.12"
 
     ![](image1.png)
 
-    * $1/each
+    * $32.66/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Larger Screen                             | Expensive                                                        |
+    | Meets surface mount constraint of project | Has 30 pins                                                      |
 
 3. XC1259TR-ND surface mount crystal
 

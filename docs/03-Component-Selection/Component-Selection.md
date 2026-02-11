@@ -117,17 +117,16 @@ The following sections are the selected major components necessary for the Human
     | Larger Screen                             | Expensive                                                        |
     | Meets surface mount constraint of project | Has 30 pins                                                      |
 
-3. XC1259TR-ND surface mount crystal
+3. NHD-1.27-12896G 1.27"
 
-    ![](image1.png)
+    ![](MFG_NHD-1.27-12896G.jpg)
 
     * $1/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | RGB                                       | Expensive                                                        |
+    | Meets surface mount constraint of project | Has 30 pins                                                      |
 
-**Rationale:** The OLED screen . If needed, multiple OLED screens can be used with each displaying different data for the user.
+**Rationale:** The SSD1306 OLED screen is the best option for this project because of how expensive other OLED screens are. Even though the screen is small, we can use multiple OLED screens with each displaying different data for the user if necessary.

@@ -21,7 +21,7 @@ The following sections are the selected major components necessary for the Human
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Components provided by course             | Cannot change voltage setting after it has been soldered         |
     | Can be deconstructed if needed            | Requires more space on PCB                                       |
-    |                                           | Components need pliers to meet surface mount constraint          |
+    |                                           | Components provided need pliers to meet surface mount constraint |
 
 2. Regulator Circuit
 

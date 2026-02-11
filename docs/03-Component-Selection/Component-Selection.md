@@ -64,7 +64,6 @@ The following sections are the selected major components necessary for the Human
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Provided by course                        | Requires external components and support circuitry for interface |
     | Allows for analog input                   | Needs pliers to meet surface mount constraint                    |
-    |                                           | |
 
 3. Joystick Potentiometer
 
@@ -75,10 +74,10 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Meets surface mount consraint of project  | Needs several traces and pinouts                                 |
-    | Allows for analog input                   | Expensive                                                        |
+    | Meets surface mount consraint of project  | Needs several traces and pins                                    |
+    | Allows for multiple analog inputs         | Expensive                                                        |
 
-**Rationale:** A clock oscillator is easier ...
+**Rationale:** Potentiometers seem to be the best fit for operating the HMI. Using two or more potentiometers will require a few more traces than a pushbutton would but would avoid issues such as debouncing. If needed, however, we can add pushbuttons to the module for minor functions.
 
 ### Actuator
 

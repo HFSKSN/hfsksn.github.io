@@ -54,14 +54,14 @@ The following sections are the selected major components necessary for the Human
 
     ![](image1.png)
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $0.10/each
+    * [link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS02-66-70-BK-100-LCR-D/15634375?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgyNuYs-cl0PtfhcjKVghZ2g&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuED1I2dSinnbzKlKYw7YbFCBgHToXbUx1UQH2Z5pEn1AzISfxalpZysaAujTEALw_wcB)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Provided by course                        | Might require de-bounce circuit                                  |
     | Requires few traces in PCB                | Needs pliers to meet surface mount constraint                    |
-    |                                           | May wear down easily                                             |
+    | Inexpensive                               | May wear down easily                                             |
 
 2. Potentiometers
 

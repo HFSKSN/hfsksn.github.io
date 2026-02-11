@@ -4,9 +4,7 @@ title: Module's Selected Major Components
 
 ## Module's Selected Major Components
 
-The following sections are the selected major components necessary for  .....
-
->**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
+The following sections are the selected major components necessary for the Human-Machine Interface module to function. According to the project requirements, this subsystem must have a 3.3 volt switching regulator, a sensor for users to input commands into the interface, and an OLED screen to display data.
 
 ### Power Management
 
@@ -16,40 +14,83 @@ For more details, review the ["Appendix - Component Selection Process - Power Ma
 
 ### Sensor
 
-(**remove this note/placeholder**: if applicable, this is where your  **SELECTED** sensor is shown. Otherwise, remove this section.)
+**Interface Inputs**
+
+1. Pushbutton Switches
+
+    ![](image1.png)
+
+    * $1/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Provided by course                        | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+1. Potentiometers
+
+    ![](image1.png)
+
+    * $1/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Provided by course                        | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+3. Potentiometers
+
+    ![](image1.png)
+
+    * $1/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Provided by course                        | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+**Rationale:** A clock oscillator is easier ...
+
 
 For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
 
 ### Actuator
 
-(**remove this note/placeholder**: if applicable, this is where your **Selected** the actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
-
-For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.
-
------------
-> Remove the following before submitting! Use them to present the selected components
-
-### Style 1
-
-> This is the example found in the assignment, uses more html
-
-*Table 1: Example component selection*
-
-**External Clock Module**
-
-| **Component**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-
-**Rationale:** A clock oscillator is easier ....
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
+**HMI OLED Screen**
 
 1. XC1259TR-ND surface mount crystal
+
+    ![](image1.png)
+
+    * $1/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Provided by course                        | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+2. XC1259TR-ND surface mount crystal
+
+    ![](image1.png)
+
+    * $1/each
+    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Requires external components and support circuitry for interface |
+    | Compatible with PSoC                      | Needs special PCB layout.                                        |
+    | Meets surface mount constraint of project |
+
+3. XC1259TR-ND surface mount crystal
 
     ![](image1.png)
 
@@ -63,3 +104,5 @@ For more details, review the ["Appendix - Component Selection Process - Actuator
     | Meets surface mount constraint of project |
 
 **Rationale:** A clock oscillator is easier ...
+
+For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.

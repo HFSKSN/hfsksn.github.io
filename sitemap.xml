@@ -21,11 +21,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hfsksn.github.io/04-BOM/BOM/</loc>
-         <lastmod>2026-02-11</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://hfsksn.github.io/04-Microcontroller-Selection/microcontroller/</loc>
          <lastmod>2026-02-11</lastmod>
          <changefreq>daily</changefreq>
@@ -37,6 +32,11 @@
     </url>
     <url>
          <loc>https://hfsksn.github.io/05-Schematic/schematic/</loc>
+         <lastmod>2026-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hfsksn.github.io/06-BOM/BOM/</loc>
          <lastmod>2026-02-11</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -93,18 +93,18 @@ The following sections are the selected major components necessary for the Human
 
 **HMI OLED Screen**
 
-1. XC1259TR-ND surface mount crystal
+1. SSD1306 0.96"
 
     ![](image1.png)
 
     * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * [link to product](https://www.amazon.com/Songhe-0-96-inch-I2C-Raspberry/dp/B085WCRS7C/)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Provided by course                        | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Compatible with ESP32                     | Small Screen                                                     |
+    | Meets surface mount constraint of project |                                                                  |
 
 2. XC1259TR-ND surface mount crystal
 

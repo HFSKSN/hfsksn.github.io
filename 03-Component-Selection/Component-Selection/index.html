@@ -1025,8 +1025,69 @@
 <h2 id="modules-selected-major-components">Module's Selected Major Components</h2>
 <p>The following sections are the selected major components necessary for the Human-Machine Interface module to function. According to the project requirements, this subsystem must have a 3.3 volt switching regulator, a sensor for users to input commands into the interface, and an OLED screen to display data.</p>
 <h3 id="power-management">Power Management</h3>
-<p>(<strong>remove this note/placeholder</strong>: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} <strong>THAT WERE SELECTED</strong>)</p>
-<p>For more details, review the <a href="https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management">"Appendix - Component Selection Process - Power Mangement"</a> selection.</p>
+<p><strong>Voltage Regulator</strong></p>
+<ol>
+<li>
+<p>LM7805 + DIY circuit</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a></p>
+<ul>
+<li>$1/each</li>
+<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Components provided by course</td>
+<td></td>
+</tr>
+<tr>
+<td>x</td>
+<td>Requires more space on PCB</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Regulator Circuit</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a></p>
+<ul>
+<li>$1/each</li>
+<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Provided by course</td>
+<td>Unable to replace parts of circuit if needed</td>
+</tr>
+<tr>
+<td>Requires few traces in PCB</td>
+<td>Needs pliers to meet surface mount constraint</td>
+</tr>
+<tr>
+<td>Can provide 3.3V and 5V to PCB different components simultaneously</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
 <h3 id="sensor">Sensor</h3>
 <p><strong>Interface Inputs</strong></p>
 <ol>
@@ -1047,15 +1108,15 @@
 <tbody>
 <tr>
 <td>Provided by course</td>
-<td>Requires external components and support circuitry for interface</td>
+<td>Might require de-bounce circuit</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>Requires few traces in PCB</td>
+<td>Needs pliers to meet surface mount constraint</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
 <td></td>
+<td>May wear down easily</td>
 </tr>
 </tbody>
 </table>
@@ -1080,11 +1141,11 @@
 <td>Requires external components and support circuitry for interface</td>
 </tr>
 <tr>
-<td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>Allows for</td>
+<td>Needs pliers to meet surface mount constraint</td>
 </tr>
 <tr>
-<td>Meets surface mount constraint of project</td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
@@ -1106,12 +1167,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Provided by course</td>
+<td></td>
 <td>Requires external components and support circuitry for interface</td>
 </tr>
 <tr>
 <td>Compatible with PSoC</td>
-<td>Needs special PCB layout.</td>
+<td>Needs several traces and pinouts</td>
 </tr>
 <tr>
 <td>Meets surface mount constraint of project</td>
@@ -1122,7 +1183,6 @@
 </li>
 </ol>
 <p><strong>Rationale:</strong> A clock oscillator is easier ...</p>
-<p>For more details, review the <a href="https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor">"Appendix - Component Selection Process - Sensor"</a> selection.</p>
 <h3 id="actuator">Actuator</h3>
 <p><strong>HMI OLED Screen</strong></p>
 <ol>
@@ -1218,7 +1278,6 @@
 </li>
 </ol>
 <p><strong>Rationale:</strong> A clock oscillator is easier ...</p>
-<p>For more details, review the <a href="https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator">"Appendix - Component Selection Process - Actuator"</a> selection.</p>
 
 
 

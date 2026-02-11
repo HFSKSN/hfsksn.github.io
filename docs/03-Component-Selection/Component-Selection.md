@@ -107,7 +107,7 @@ The following sections are the selected major components necessary for the Human
 
 2. WEX025664BSPP3N00000 3.12"
 
-    ![](image1.png)
+    ![](MFG_WEX025664BSPP3N00000.jpg)
 
     * $32.66/each
     * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)

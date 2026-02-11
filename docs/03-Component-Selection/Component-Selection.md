@@ -63,21 +63,21 @@ The following sections are the selected major components necessary for the Human
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Provided by course                        | Requires external components and support circuitry for interface |
-    | Allows for                       | Needs pliers to meet surface mount constraint                    |
+    | Allows for analog input                   | Needs pliers to meet surface mount constraint                    |
     |                                           | |
 
-3. Potentiometers
+3. Joystick Potentiometer
 
     ![](image1.png)
 
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $5.73/each
+    * [link to product](https://www.digikey.com/en/products/detail/favor-electronics/FJ05K-S1B5KB0/16893757?s=N4IgjCBcoExgbFUBjKAzAhgGwM4FMAaEAeygG0QAWABgGYBWAThAF0iAHAFyhAGVOATgEsAdgHMQAX2lA)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    |                         | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs several traces and pinouts                                 |
-    | Meets surface mount constraint of project |
+    |                         | Expensive |
+    | Meets surface mount consraint of project  | Needs several traces and pinouts                                 |
+    | Allows for analog input                   |                                                                  |
 
 **Rationale:** A clock oscillator is easier ...
 

@@ -4,7 +4,9 @@ title: Module's Selected Microcontroller
 
 ## Module's Selected Microcontroller
 
-The following section details relevant information on the selected microcontroller for the HMI module, the ESP32. Official datasheets, online resources, load specifications, are listed below in Table 1. Table 2 and Figure 1 display the pins and modules available for the functionality required for the subsystem, which requires UART communication between subsystems, I2C for the OLED screen to function, GPIO inputs for pushbuttons, ADC inputs for potentiometers, LED PWM outputs for LEDs, and a USB programmer for coding. The ESP32 was chosen for this project over the PIC 18 because of the additional UART slots provided (there is a pinout conflict if attempting to use two UART moduless and I2C in the PIC 18 DIP) as well as the fact that there are more resources on programming the OLED screen with the ESP32.
+The following section details relevant information on the selected microcontroller for the HMI module, the ESP32. Official datasheets, online resources, load specifications, are listed below in Table 1. Table 2 and Figure 1 display the pins and modules available for the functionality required for the subsystem, which requires UART communication between subsystems, I2C for the OLED screen to function, GPIO inputs for pushbuttons, ADC inputs for potentiometers, LED PWM outputs for LEDs, and a USB programmer for coding. 
+
+The ESP32 was chosen for this project over the PIC 18 because of the additional UART slots provided (there is a pinout conflict if attempting to use two UART moduless and I2C in the PIC 18 DIP) as well as the fact that there are more resources on programming the OLED screen with the ESP32.
 
 
 **Table 1:** Microcontroller Info

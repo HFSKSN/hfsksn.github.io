@@ -41,6 +41,8 @@ The following section details the selected microcontroller,
 | USB Programmer | 2           | 1      | IO19-20                        |
 
 
+## Microcontroller Diagram
+
 ![Pinout Diagram](pinout.png)
 
 **Figure 1:** ESP32-S3-WROOM-1 Pinout Diagram

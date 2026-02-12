@@ -27,7 +27,8 @@ The following section details the selected microcontroller,
 | Supports External Interrupts?                 | ?      | 
 | Required Programming Hardware, Cost, URL      | ?      | 
 
-**Table 1:** Pinout Allocation
+
+**Table 2:** Pinout Allocation
 
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |

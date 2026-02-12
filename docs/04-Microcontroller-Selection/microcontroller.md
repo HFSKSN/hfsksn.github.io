@@ -32,15 +32,10 @@ The following section details the selected microcontroller,
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |
 | UART           | ?           | ?      | ?                              |
-| external SPI\* | ?           | ?      | ?                              |
+| external SPI   | ?           | ?      | ?                              |
 | I2C            | ?           | ?      | ?                              |
-| GPIO           | ?           | ?      | ?                              |
-| ADC            | ?           | ?      | ?                              |
-| LED PWM        | ?           | ?      | ?                              |
-| Motor PWM      | ?           | ?      | ?                              |
+| GPIO           | ?           | 4      | ?                              |
+| ADC            | ?           | 2      | ?                              |
+| LED PWM        | ?           | 2      | ?                              |
+| Motor PWM      | ?           | 0      | ?                              |
 | USB Programmer | ?           | 1      | ?                              |
-| ...            |
-
-
-
-\* The ESP32-S2 has multiple SPI interfaces, but some are for internal use

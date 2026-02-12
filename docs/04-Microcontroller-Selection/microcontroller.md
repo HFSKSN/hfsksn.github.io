@@ -7,6 +7,7 @@ title: Module's Selected Microcontroller
 The following section details the selected microcontroller, 
 
 **Microcontroller Info**
+| Q | A |
 | --------------------------------------------- | --------- |
 | Model                                         | ESP32      | 
 | Product Page URL                              | [link](#)      |

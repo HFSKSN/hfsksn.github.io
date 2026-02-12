@@ -6,6 +6,9 @@ title: Module's Selected Microcontroller
 
 The following section details the selected microcontroller, 
 
+
+**Table 1:** ESP Info
+
 | Microcontroller Info                          | Answer |
 | --------------------------------------------- | ------ |
 | Model                                         | ESP32      | 
@@ -23,6 +26,8 @@ The following section details the selected microcontroller,
 | Maximum GPIO current <br> (per pin)           | ?      | 
 | Supports External Interrupts?                 | ?      | 
 | Required Programming Hardware, Cost, URL      | ?      | 
+
+**Table 1:** Pinout Allocation
 
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |

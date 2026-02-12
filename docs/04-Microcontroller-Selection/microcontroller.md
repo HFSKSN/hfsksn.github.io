@@ -7,19 +7,19 @@ title: Module's Selected Microcontroller
 The following section details the selected microcontroller, 
 
 
-**Table 1:** ESP Info
+**Table 1:** Microcontroller Info
 
-| Microcontroller Info                          | Answer |
-| --------------------------------------------- | ------ |
-| Model                                         | ESP32      | 
-| Product Page URL                              | [link](#)      |
-| ESP32-S3-WROOM-1-N4 Datasheet URL             | [link](#)      | 
-| ESP32 S3 Datasheet URL                        | [link](#)      | 
-| ESP32 S3 Technical Reference Manual URL       | [link](#)      | 
-| Vendor link                                   | [link](#)      | 
+| ESP Info                          | Answer                                                |
+| --------------------------------------------- | ----------------------------------------------------- |
+| Model                                         | ESP32 S3 WROOM 1 N4                                     | 
+| Product Page URL                              | [link](https://www.espressif.com/en/products/modules) |
+| ESP32-S3-WROOM-1-N4 Datasheet URL             | [link](https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)      | 
+| ESP32 S3 Datasheet URL                        | [link](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)      | 
+| ESP32 S3 Technical Reference Manual URL       | [link](https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf)      | 
+| Vendor link                                   | [link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)      | 
 | Code Examples                                 | ?      | 
-| External Resources URL(s)                     | ?      | 
-| Unit cost                                     | ?      | 
+| External Resources URL(s)                     | [link](https://embedded-systems-design.github.io/tutorials/esp32/)      | 
+| Unit cost                                     | $5.06      | 
 | Absolute Maximum Current for entire IC        | ?      | 
 | Supply Voltage Range                          | ?      | 
 | Absolute Maximum current <br> (for entire IC) | ?      | 
@@ -28,7 +28,7 @@ The following section details the selected microcontroller,
 | Required Programming Hardware, Cost, URL      | ?      | 
 
 
-**Table 2:** Pinout Allocation
+**Table 2:** Pin Allocation
 
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |

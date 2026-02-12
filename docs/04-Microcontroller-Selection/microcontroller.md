@@ -6,9 +6,8 @@ title: Module's Selected Microcontroller
 
 The following section details the selected microcontroller, 
 
-**Microcontroller Info**
-| Q | A |
-| --------------------------------------------- | --------- |
+| Microcontroller Info                          | Answer |
+| --------------------------------------------- | ------ |
 | Model                                         | ESP32      | 
 | Product Page URL                              | [link](#)      |
 | ESP32-S3-WROOM-1-N4 Datasheet URL             | [link](#)      | 

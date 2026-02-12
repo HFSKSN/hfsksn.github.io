@@ -31,14 +31,14 @@ The following section details the selected microcontroller,
 
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |
-| UART           | ?           | ?      | ?                              |
-| external SPI   | ?           | ?      | ?                              |
-| I2C            | ?           | ?      | ?                              |
-| GPIO           | ?           | 4      | ?                              |
+| UART           | 3           | 1      | *GPIO                          |
+| external SPI   | 4           | 0      | *GPIO                          |
+| I2C            | 2           | 2      | *GPIO                          |
+| GPIO           | 36          | 4      | *GPIO                          |
 | ADC            | ?           | 2      | ?                              |
 | LED PWM        | ?           | 2      | ?                              |
 | Motor PWM      | ?           | 0      | ?                              |
-| USB Programmer | ?           | 1      | ?                              |
+| USB Programmer | 2           | 1      | IO19-20                        |
 
 
 ![Pinout Diagram](pinout.png)

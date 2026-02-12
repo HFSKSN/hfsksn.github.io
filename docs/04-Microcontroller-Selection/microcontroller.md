@@ -39,3 +39,6 @@ The following section details the selected microcontroller,
 | LED PWM        | ?           | 2      | ?                              |
 | Motor PWM      | ?           | 0      | ?                              |
 | USB Programmer | ?           | 1      | ?                              |
+
+![Pinout Diagram](pinout.png)
+**Figure 1:** ESP32-S3-WROOM-1 Pinout Diagram

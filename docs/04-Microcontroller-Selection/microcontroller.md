@@ -33,11 +33,11 @@ The following section details the selected microcontroller,
 | -------------- | ----------- | ------ | ------------------------------ |
 | UART           | 3           | 1      | *GPIO                          |
 | external SPI   | 4           | 0      | *GPIO                          |
-| I2C            | 2           | 2      | *GPIO                          |
+| I2C            | 2           | 1      | *GPIO                          |
 | GPIO           | 36          | 4      | *GPIO                          |
-| ADC            | ?           | 2      | ?                              |
-| LED PWM        | ?           | 2      | ?                              |
-| Motor PWM      | ?           | 0      | ?                              |
+| ADC            | 20          | 2      | IO1-20                         |
+| LED PWM        | 36          | 2      | *GPIO                          |
+| Motor PWM      | 36          | 0      | *GPIO                          |
 | USB Programmer | 2           | 1      | IO19-20                        |
 
 

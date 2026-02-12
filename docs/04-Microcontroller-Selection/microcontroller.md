@@ -32,7 +32,7 @@ The following section details the selected microcontroller,
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |
 | UART           | 3           | 1      | *GPIO                          |
-| external SPI   | 4           | 0      | *GPIO                          |
+| External SPI   | 2           | 0      | *GPIO                          |
 | I2C            | 2           | 1      | *GPIO                          |
 | GPIO           | 36          | 4      | *GPIO                          |
 | ADC            | 20          | 2      | IO1-20                         |

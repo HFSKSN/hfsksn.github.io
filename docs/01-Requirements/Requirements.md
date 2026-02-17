@@ -3,14 +3,14 @@ title: Module's Requirements
 ---
 
 ## Module Requirements
-The following sections document the requirements that the User Interface module needs to fulfill in order to allow the user to directly interact with the automated telescope, input commands, and view the data collected by the other modules.
+The following sections document the requirements that the D3 Sensor module needs to fulfill in order to allow the user to recieve data on the boat's speed. The subsystem may also be able to track the location of the boat or help stabilize camera with additional sensors as stretch goals.
 
 | **Requirement Description** | **Measure of<br> Threshold** | **Target<br>Measure** |**Stretch<br>Requirement<br>(Y-N)**|
 |-----------------------------| ----------------- | ----------------- | :-----: |
 | Surface-mounted 3.3V switching power regulator | 3.2 Volts | 3.3 Volts | No |
-| Surface-mounted microcontroller | 1 PIC or ESP | 8-bit PIC | No |
-| Wireless Communication | Able to send or receive a Wi-Fi data | Send and receive Wi-Fi Data to MQTT | Yes |
-| Surface-mounted Display | Able to display data | Displays data received from sensor modules | No |
-| Surface-mounted Controls | Able to process user inputs | Send user inputs to microcontroller and device reacts to commands | No |
-| UART Communication | Able to send or receive data | Send and receive data as main hub for modules | No |
-| Surface-mounted Storage Device | Able to store data | Stores sensor data and can be ejected from housing | Yes |
+| Surface-mounted microcontroller | 1 PIC or ESP | ESP32 | No |
+| Wireless Communication | Able to send or receive bluetooth data | Send and receive bluetooh data to other modules | Yes |
+| Accelerometer Sensor | Able to detect speed of boat | Send speed data to user interface | No |
+| Gyroscope Sensor | Able to detect angular movement of boat | Send motion data to stabilize camera instruments | Yes |
+| UART Communication | Able to send or receive data | Send and receive data to other modules | No |
+| Distance Calculation | Able to record location from accelerometer data | Store sensor data, calculate distance, and send data to user interface | Yes |

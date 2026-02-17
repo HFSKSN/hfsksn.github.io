@@ -957,7 +957,7 @@
   <h1>Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the D3 Sensor module needs to fulfill in order to allow the user to recieve data on the boat's speed. As stretch goals, the subsystem may also be able to track the location of the boat using the speed data or help stabilize the on-board instruments with additional sensors.</p>
+<p>The following sections document the requirements that the Gyroscope module in the Camera Arm Subgroup needs to fulfill in order to stabilize the camera during data collection. As a stretch goal, the subsystem may also be able to track the speed of the boat and the location of the boat using the speed data with additional sensors.</p>
 <table>
 <thead>
 <tr>
@@ -987,15 +987,15 @@
 <td style="text-align: center;">Yes</td>
 </tr>
 <tr>
-<td>Accelerometer Sensor</td>
-<td>Able to detect speed of boat</td>
-<td>Send speed data to user interface</td>
-<td style="text-align: center;">No</td>
-</tr>
-<tr>
 <td>Gyroscope Sensor</td>
 <td>Able to detect angular movement of boat</td>
 <td>Send motion data to stabilize camera instruments</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>Accelerometer Sensor</td>
+<td>Able to detect speed of boat</td>
+<td>Send speed data to user interface</td>
 <td style="text-align: center;">Yes</td>
 </tr>
 <tr>

@@ -957,7 +957,7 @@
   <h1>Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the User Interface module needs to fulfill in order to allow the user to directly interact with the automated telescope, input commands, and view the data collected by the other modules.</p>
+<p>The following sections document the requirements that the D3 Sensor module needs to fulfill in order to allow the user to recieve data on the boat's speed. The subsystem may also be able to track the location of the boat or help stabilize camera with additional sensors as stretch goals.</p>
 <table>
 <thead>
 <tr>
@@ -977,37 +977,37 @@
 <tr>
 <td>Surface-mounted microcontroller</td>
 <td>1 PIC or ESP</td>
-<td>8-bit PIC</td>
+<td>ESP32</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
 <td>Wireless Communication</td>
-<td>Able to send or receive a Wi-Fi data</td>
-<td>Send and receive Wi-Fi Data to MQTT</td>
+<td>Able to send or receive bluetooth data</td>
+<td>Send and receive bluetooh data to other modules</td>
 <td style="text-align: center;">Yes</td>
 </tr>
 <tr>
-<td>Surface-mounted Display</td>
-<td>Able to display data</td>
-<td>Displays data received from sensor modules</td>
+<td>Accelerometer Sensor</td>
+<td>Able to detect speed of boat</td>
+<td>Send speed data to user interface</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
-<td>Surface-mounted Controls</td>
-<td>Able to process user inputs</td>
-<td>Send user inputs to microcontroller and device reacts to commands</td>
-<td style="text-align: center;">No</td>
+<td>Gyroscope Sensor</td>
+<td>Able to detect angular movement of boat</td>
+<td>Send motion data to stabilize camera instruments</td>
+<td style="text-align: center;">Yes</td>
 </tr>
 <tr>
 <td>UART Communication</td>
 <td>Able to send or receive data</td>
-<td>Send and receive data as main hub for modules</td>
+<td>Send and receive data to other modules</td>
 <td style="text-align: center;">No</td>
 </tr>
 <tr>
-<td>Surface-mounted Storage Device</td>
-<td>Able to store data</td>
-<td>Stores sensor data and can be ejected from housing</td>
+<td>Distance Calculation</td>
+<td>Able to record location from accelerometer data</td>
+<td>Store sensor data, calculate distance, and send data to user interface</td>
 <td style="text-align: center;">Yes</td>
 </tr>
 </tbody>

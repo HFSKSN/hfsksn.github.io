@@ -3,7 +3,7 @@ title: Module's Requirements
 ---
 
 ## Module Requirements
-The following sections document the requirements that the D3 Sensor module needs to fulfill in order to allow the user to recieve data on the boat's speed. The subsystem may also be able to track the location of the boat using the speed data or help stabilize the on-board instruments with additional sensors as stretch goals.
+The following sections document the requirements that the D3 Sensor module needs to fulfill in order to allow the user to recieve data on the boat's speed. As stretch goals, the subsystem may also be able to track the location of the boat using the speed data or help stabilize the on-board instruments with additional sensors.
 
 | **Requirement Description** | **Measure of<br> Threshold** | **Target<br>Measure** |**Stretch<br>Requirement<br>(Y-N)**|
 |-----------------------------| ----------------- | ----------------- | :-----: |

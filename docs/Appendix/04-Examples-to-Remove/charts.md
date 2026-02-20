@@ -45,6 +45,12 @@ sequenceDiagram
   autonumber
   actor P as InPersonUser
   participant I as Isaac<br/>Controller
+  participant M as Michael<br/>Controller Transceiver
+  participant I as Isaac<br/>Controller
+  participant I as Isaac<br/>Controller
+  participant I as Isaac<br/>Controller
+  participant I as Isaac<br/>Controller
+
   P-->>I: Steer Drone
   loop Healthcheck
       John->>John: Fight against hypochondria

@@ -70,7 +70,7 @@ sequenceDiagram
   M->>N: Isaac to K<br/>Throttle Drone to 80%
   N->>J: Isaac to K<br/>Throttle Drone to 80%
   J->>P: Isaac to K<br/>Throttle Drone to 80%
-  P->>P: Adjust Motor Speed to 80%, Trash Message
+  P->>P: Adjust Motor Speed to 80%,<br/> Trash Message
 
   U-->>I: Turn Camera
   I->>M: Isaac to Austin<br/>Camera to 24 degrees

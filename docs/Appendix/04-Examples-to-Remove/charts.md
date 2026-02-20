@@ -91,4 +91,22 @@ sequenceDiagram
   A->>L: Isaac to Levi<br/>Take Photo
   L->>L: Take and Save Image,<br/>Trash Message
 
+  loop
+    I->>M: Isaac to Seth<br/>Get Distance
+    M->>N: Isaac to Seth<br/>Get Distance
+    N->>J: Isaac to Seth<br/>Get Distance
+    J->>P: Isaac to Seth<br/>Get Distance
+    P->>H: Isaac to Seth<br/>Get Distance
+    H->>A: Isaac to Seth<br/>Get Distance
+    A->>L: Isaac to Seth<br/>Get Distance
+    L->>S: Isaac to Seth<br/>Get Distance
+    S->>S: Collect Distance Data
+    S->>K: Seth to Isaac<br/>Distance is 4.54m
+    K->>N: Seth to Isaac<br/>Distance is 4.54m
+    N->>M: Seth to Isaac<br/>Distance is 4.54m
+    M->>I: Seth to Isaac<br/>Distance is 4.54m
+    I->>I: Display "Distance = 4.54m"<br/>on OLED screen
+
+
+  end
 ```

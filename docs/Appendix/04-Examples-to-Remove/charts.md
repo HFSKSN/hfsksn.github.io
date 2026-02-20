@@ -100,13 +100,26 @@ sequenceDiagram
     H->>A: Isaac to Seth<br/>Get Distance
     A->>L: Isaac to Seth<br/>Get Distance
     L->>S: Isaac to Seth<br/>Get Distance
-    S->>S: Collect Distance Data
+    S->>S: Collect Distance Data,<br/>Trash Message
     S->>K: Seth to Isaac<br/>Distance is 4.54m
     K->>N: Seth to Isaac<br/>Distance is 4.54m
     N->>M: Seth to Isaac<br/>Distance is 4.54m
     M->>I: Seth to Isaac<br/>Distance is 4.54m
     I->>I: Display "Distance = 4.54m"<br/>on OLED screen
 
-
+    I->>M: Isaac to Kelton<br/>Get Temperature
+    M->>N: Isaac to Kelton<br/>Get Temperature
+    N->>J: Isaac to Kelton<br/>Get Temperature
+    J->>P: Isaac to Kelton<br/>Get Temperature
+    P->>H: Isaac to Kelton<br/>Get Temperature
+    H->>A: Isaac to Kelton<br/>Get Temperature
+    A->>L: Isaac to Kelton<br/>Get Temperature
+    L->>S: Isaac to Kelton<br/>Get Temperature
+    S->>K: Isaac to Kelton<br/>Get Temperature
+    K->>K: Collect Temperature Data,<br/>Trash Message
+    K->>N: Kelton to Isaac<br/>Temperature is 23C
+    N->>M: Kelton to Isaac<br/>Temperature is 23C
+    M->>I: Kelton to Isaac<br/>Temperature is 23C
+    I->>I: Display "Temperature = 23C"<br/>on OLED screen
   end
 ```

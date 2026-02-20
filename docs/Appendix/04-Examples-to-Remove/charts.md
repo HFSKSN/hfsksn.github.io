@@ -45,7 +45,7 @@ sequenceDiagram
   autonumber
   actor U as InPersonUser
   participant I as Isaac<br/>Controller
-  box SkyBlue
+  box Blue
   participant M as Michael<br/>Controller Transceiver
   participant N as Neel<br/>Drone Transceiver
   end
@@ -57,7 +57,7 @@ sequenceDiagram
   participant S as Seth<br/>Distance Sensor
   participant K as Kelton<br/>Temperature Sensor
 
-  Note over M,N: Bluetooth Low Energy Communication
+  Note over M,N: Bluetooth Low<br/>Energy Communication
 
   U-->>I: Steer Drone
   I->>M: Isaac to Jacob<br/>Steer Drone to 45 degrees

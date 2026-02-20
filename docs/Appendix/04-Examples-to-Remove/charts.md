@@ -61,8 +61,5 @@ sequenceDiagram
   I->>M: Isaac to Jacob<br/>Steer Drone to 45 degrees
   rect rgb(191, 223, 255)
   M->>N: Isaac to Jacob<br/>Steer Drone to 45 degrees
-  loop Healthcheck
-      John->>John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts!
+
 ```

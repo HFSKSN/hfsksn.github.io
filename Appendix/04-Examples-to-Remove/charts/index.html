@@ -1224,7 +1224,25 @@
   H-&gt;&gt;A: Isaac to Levi&lt;br/&gt;Take Photo
   A-&gt;&gt;L: Isaac to Levi&lt;br/&gt;Take Photo
   L-&gt;&gt;L: Take and Save Image,&lt;br/&gt;Trash Message
-</code></pre>
+
+  loop
+    I-&gt;&gt;M: Isaac to Seth&lt;br/&gt;Get Distance
+    M-&gt;&gt;N: Isaac to Seth&lt;br/&gt;Get Distance
+    N-&gt;&gt;J: Isaac to Seth&lt;br/&gt;Get Distance
+    J-&gt;&gt;P: Isaac to Seth&lt;br/&gt;Get Distance
+    P-&gt;&gt;H: Isaac to Seth&lt;br/&gt;Get Distance
+    H-&gt;&gt;A: Isaac to Seth&lt;br/&gt;Get Distance
+    A-&gt;&gt;L: Isaac to Seth&lt;br/&gt;Get Distance
+    L-&gt;&gt;S: Isaac to Seth&lt;br/&gt;Get Distance
+    S-&gt;&gt;S: Collect Distance Data
+    S-&gt;&gt;K: Seth to Isaac&lt;br/&gt;Distance is 4.54m
+    K-&gt;&gt;N: Seth to Isaac&lt;br/&gt;Distance is 4.54m
+    N-&gt;&gt;M: Seth to Isaac&lt;br/&gt;Distance is 4.54m
+    M-&gt;&gt;I: Seth to Isaac&lt;br/&gt;Distance is 4.54m
+    I-&gt;&gt;I: Display "Distance = 4.54m"&lt;br/&gt;on OLED screen
+
+
+  end</code></pre>
 
 
 

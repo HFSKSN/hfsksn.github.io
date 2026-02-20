@@ -29,15 +29,15 @@ The ESP32 was chosen for this project over the PIC 18 because of the additional 
 | Required Programming Hardware, Cost, URL      | VScode Pymakr <br> $0 <br> [link](https://marketplace.visualstudio.com/items?itemName=pycom.Pymakr) | 
 
 
-**Table 2:** Pin Allocation
+**Table 2:** Resource Allocation
 
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |
-| UART           | 3           | 2      | *GPIO                          |
+| UART           | 3           | 1      | *GPIO                          |
 | External SPI   | 2           | 0      | *GPIO                          |
 | I2C            | 2           | 1      | *GPIO                          |
-| GPIO           | 36          | 4      | *GPIO                          |
-| ADC            | 20          | 2      | IO1-20                         |
+| GPIO           | 36          | 7      | *GPIO                          |
+| ADC            | 20          | 0      | IO1-20                         |
 | LED PWM        | 36          | 2      | *GPIO                          |
 | Motor PWM      | 36          | 0      | *GPIO                          |
 | USB Programmer | 1           | 1      | IO19-20                        |

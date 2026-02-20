@@ -9,7 +9,7 @@ This schematic is design to support the gyroscope and accelerometer functionalit
 
 ![schematic](schematic.png)
 
-**Figure 1:** Showing a example schematic.
+**Figure 1:** Gyroscope & Accelerometer Subsystem Schematic
 
 
 ## Resouces

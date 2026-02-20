@@ -1177,10 +1177,12 @@
     State4 --&gt; [*]</code></pre>
 <pre class="mermaid"><code>sequenceDiagram
   autonumber
-  actor P as InPersonUser
+  actor U as InPersonUser
   participant I as Isaac&lt;br/&gt;Controller
+  box Blue
   participant M as Michael&lt;br/&gt;Controller Transceiver
   participant N as Neel&lt;br/&gt;Drone Transceiver
+  end
   participant P as K Phang&lt;br/&gt;Throttle
   participant J as Jacob&lt;br/&gt;Steering
   participant H as Hafsa&lt;br/&gt;Gyroscope &amp; Accelerometer
@@ -1189,7 +1191,7 @@
   participant S as Seth&lt;br/&gt;Distance Sensor
   participant K as Kelton&lt;br/&gt;Temperature Sensor
 
-  P--&gt;&gt;I: Steer Drone
+  U--&gt;&gt;I: Steer Drone
   I-&gt;&gt;M: Isaac to Jacob&lt;br/&gt;Steer Drone to 45 degrees
   M-&gt;&gt;N: 
   loop Healthcheck

@@ -39,3 +39,17 @@ stateDiagram-v2
     join_state --> State4
     State4 --> [*]
 ```
+
+``` mermaid
+sequenceDiagram
+  autonumber
+  actor P as InPersonUser
+  P->>Isaac-Controller: Hello John, how are you?
+  loop Healthcheck
+      John->>John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts!
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
+```

@@ -137,7 +137,7 @@ sequenceDiagram
     M->>I: Kelton to Isaac<br/>Temperature is 23C
     I->>I: Display "Temperature = 23C"<br/>on OLED screen
 
-    H->>H: Collect Angular Momentum data, Calculate
+    H->>H: Collect Angular Momentum Data, Calculate
     H->>A: Stabilize Arm<br>Camera to 3 degrees
     A->>A: Adjust Camera Servo to<br/>3 degrees, Trash Message
   end

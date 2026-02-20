@@ -1183,19 +1183,34 @@
   participant M as Michael&lt;br/&gt;Controller Transceiver
   participant N as Neel&lt;br/&gt;Drone Transceiver
   end
-  participant P as K Phang&lt;br/&gt;Throttle
   participant J as Jacob&lt;br/&gt;Steering
+  participant P as K Phang&lt;br/&gt;Throttle
   participant H as Hafsa&lt;br/&gt;Gyroscope &amp; Accelerometer
   participant A as Austin&lt;br/&gt;Camera Arm
   participant L as Levi&lt;br/&gt;Camera
   participant S as Seth&lt;br/&gt;Distance Sensor
   participant K as Kelton&lt;br/&gt;Temperature Sensor
 
-  Note over M,N: Bluetooth Low&lt;br/&gt;Energy Communication
+  Note over M,N: Bluetooth Low Energy Communication
 
   U--&gt;&gt;I: Steer Drone
   I-&gt;&gt;M: Isaac to Jacob&lt;br/&gt;Steer Drone to 45 degrees
-  M-&gt;&gt;N: Isaac to Jacob&lt;br/&gt;Steer Drone to 45 degrees</code></pre>
+  M-&gt;&gt;N: Isaac to Jacob&lt;br/&gt;Steer Drone to 45 degrees
+  N-&gt;&gt;J: Isaac to Jacob&lt;br/&gt;Steer Drone to 45 degrees
+  J-&gt;&gt;J: Adjust Steering Servo to&lt;br&gt;45 degrees, Trash Message
+  U--&gt;&gt;I: Throttle Drone
+  I-&gt;&gt;M: Isaac to K&lt;br/&gt;Throttle Drone to 80%
+  M-&gt;&gt;N: Isaac to K&lt;br/&gt;Throttle Drone to 80%
+  N-&gt;&gt;J: Isaac to K&lt;br/&gt;Throttle Drone to 80%
+  J-&gt;&gt;P: Isaac to K&lt;br/&gt;Throttle Drone to 80%
+  P-&gt;&gt;P: Adjust Motor Speed to 80%, Trash Message
+  U--&gt;&gt;I: Turn Camera
+  I-&gt;&gt;M: Isaac to Austin&lt;br/&gt;Camera to 24 degrees
+  M-&gt;&gt;N: Isaac to Austin&lt;br/&gt;Camera to 24 degrees
+  N-&gt;&gt;J: Isaac to Austin&lt;br/&gt;Camera to 24 degrees
+  J-&gt;&gt;P: Isaac to Austin&lt;br/&gt;Camera to 24 degrees
+  P-&gt;&gt;A: Isaac to Austin&lt;br/&gt;Camera to 24 degrees
+  A-&gt;&gt;A: Adjust Camera Servo to&lt;br&gt;24 degrees, Trash Message</code></pre>
 
 
 

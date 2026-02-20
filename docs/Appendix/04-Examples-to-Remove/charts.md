@@ -79,7 +79,7 @@ sequenceDiagram
   J->>P: Isaac to Austin<br/>Camera to 24 degrees
   P->>H: Isaac to Austin<br/>Camera to 24 degrees
   H->>A: Isaac to Austin<br/>Camera to 24 degrees
-  A->>A: Adjust Camera Servo to<br>24 degrees, Trash Message
+  A->>A: Adjust Camera Servo to<br/>24 degrees, Trash Message
 
   U-->>I: Take Picture
   I->>M: Isaac to Levi<br/>Take Photo

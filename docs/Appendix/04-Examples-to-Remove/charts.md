@@ -64,17 +64,31 @@ sequenceDiagram
   M->>N: Isaac to Jacob<br/>Steer Drone to 45 degrees
   N->>J: Isaac to Jacob<br/>Steer Drone to 45 degrees
   J->>J: Adjust Steering Servo to<br>45 degrees, Trash Message
+
   U-->>I: Throttle Drone
   I->>M: Isaac to K<br/>Throttle Drone to 80%
   M->>N: Isaac to K<br/>Throttle Drone to 80%
   N->>J: Isaac to K<br/>Throttle Drone to 80%
   J->>P: Isaac to K<br/>Throttle Drone to 80%
   P->>P: Adjust Motor Speed to 80%, Trash Message
+
   U-->>I: Turn Camera
   I->>M: Isaac to Austin<br/>Camera to 24 degrees
   M->>N: Isaac to Austin<br/>Camera to 24 degrees
   N->>J: Isaac to Austin<br/>Camera to 24 degrees
   J->>P: Isaac to Austin<br/>Camera to 24 degrees
+  P->>H: Isaac to Austin<br/>Camera to 24 degrees
   P->>A: Isaac to Austin<br/>Camera to 24 degrees
   A->>A: Adjust Camera Servo to<br>24 degrees, Trash Message
+
+  U-->>I: Take Picture
+  I->>M: Isaac to Levi<br/>Take Photo
+  M->>N: Isaac to Levi<br/>Take Photo
+  N->>J: Isaac to Levi<br/>Take Photo
+  J->>P: Isaac to Levi<br/>Take Photo
+  P->>H: Isaac to Levi<br/>Take Photo
+  H->>A: Isaac to Levi<br/>Take Photo
+  A->>L: Isaac to Levi<br/>Take Photo
+  L->>L: Take and Save Image,<br/>Trash Message
+
 ```

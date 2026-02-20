@@ -92,6 +92,21 @@ sequenceDiagram
   L->>L: Take and Save Image,<br/>Trash Message
 
   loop
+    I->>M: Isaac to Hafsa<br/>Get Speed
+    M->>N: Isaac to Hafsa<br/>Get Speed
+    N->>J: Isaac to Hafsa<br/>Get Speed
+    J->>P: Isaac to Hafsa<br/>Get Speed
+    P->>H: Isaac to Hafsa<br/>Get Speed
+    H->>H: Collect Speed Data,<br/>Trash Message
+    H->>A: Hafsa to Isaac<br/>Speed is 3m/s
+    A->>L: Hafsa to Isaac<br/>Speed is 3m/s
+    L->>S: Hafsa to Isaac<br/>Speed is 3m/s
+    S->>K: Hafsa to Isaac<br/>Speed is 3m/s
+    K->>N: Hafsa to Isaac<br/>Speed is 3m/s
+    N->>M: Hafsa to Isaac<br/>Speed is 3m/s
+    M->>I: Hafsa to Isaac<br/>Speed is 3m/s
+    I->>I: Display "Speed = 3m/s"<br/>on OLED screen
+
     I->>M: Isaac to Seth<br/>Get Distance
     M->>N: Isaac to Seth<br/>Get Distance
     N->>J: Isaac to Seth<br/>Get Distance
@@ -121,5 +136,9 @@ sequenceDiagram
     N->>M: Kelton to Isaac<br/>Temperature is 23C
     M->>I: Kelton to Isaac<br/>Temperature is 23C
     I->>I: Display "Temperature = 23C"<br/>on OLED screen
+
+    H->>H: Collect Angular Momentum data
+    H->>A: Stabilize Arm<br>Camera to 3 degrees
+    A->>A: Adjust Camera Servo to<br/>3 degrees, Trash Message
   end
 ```

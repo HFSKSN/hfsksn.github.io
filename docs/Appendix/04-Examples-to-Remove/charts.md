@@ -44,7 +44,8 @@ stateDiagram-v2
 sequenceDiagram
   autonumber
   actor P as InPersonUser
-  P->>Isaac-Controller: Hello John, how are you?
+  participant I as Isaac<br/>Controller
+  P-->>I: Steer Drone
   loop Healthcheck
       John->>John: Fight against hypochondria
   end

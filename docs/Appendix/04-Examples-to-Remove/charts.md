@@ -49,17 +49,32 @@ sequenceDiagram
   participant M as Michael<br/>Controller Transceiver
   participant N as Neel<br/>Drone Transceiver
   end
-  participant P as K Phang<br/>Throttle
   participant J as Jacob<br/>Steering
+  participant P as K Phang<br/>Throttle
   participant H as Hafsa<br/>Gyroscope & Accelerometer
   participant A as Austin<br/>Camera Arm
   participant L as Levi<br/>Camera
   participant S as Seth<br/>Distance Sensor
   participant K as Kelton<br/>Temperature Sensor
 
-  Note over M,N: Bluetooth Low<br/>Energy Communication
+  Note over M,N: Bluetooth Low Energy Communication
 
   U-->>I: Steer Drone
   I->>M: Isaac to Jacob<br/>Steer Drone to 45 degrees
   M->>N: Isaac to Jacob<br/>Steer Drone to 45 degrees
+  N->>J: Isaac to Jacob<br/>Steer Drone to 45 degrees
+  J->>J: Adjust Steering Servo to<br>45 degrees, Trash Message
+  U-->>I: Throttle Drone
+  I->>M: Isaac to K<br/>Throttle Drone to 80%
+  M->>N: Isaac to K<br/>Throttle Drone to 80%
+  N->>J: Isaac to K<br/>Throttle Drone to 80%
+  J->>P: Isaac to K<br/>Throttle Drone to 80%
+  P->>P: Adjust Motor Speed to 80%, Trash Message
+  U-->>I: Turn Camera
+  I->>M: Isaac to Austin<br/>Camera to 24 degrees
+  M->>N: Isaac to Austin<br/>Camera to 24 degrees
+  N->>J: Isaac to Austin<br/>Camera to 24 degrees
+  J->>P: Isaac to Austin<br/>Camera to 24 degrees
+  P->>A: Isaac to Austin<br/>Camera to 24 degrees
+  A->>A: Adjust Camera Servo to<br>24 degrees, Trash Message
 ```

@@ -45,10 +45,10 @@ sequenceDiagram
   autonumber
   actor U as InPersonUser
   participant I as Isaac<br/>Controller
-  
+  box Blue
   participant M as Michael<br/>Controller Transceiver
   participant N as Neel<br/>Drone Transceiver
-  
+  end
   participant P as K Phang<br/>Throttle
   participant J as Jacob<br/>Steering
   participant H as Hafsa<br/>Gyroscope & Accelerometer
@@ -57,9 +57,9 @@ sequenceDiagram
   participant S as Seth<br/>Distance Sensor
   participant K as Kelton<br/>Temperature Sensor
 
+  Note over M,N: Bluetooth Low Energy Communication
+
   U-->>I: Steer Drone
   I->>M: Isaac to Jacob<br/>Steer Drone to 45 degrees
-  rect rgb(191, 223, 255)
   M->>N: Isaac to Jacob<br/>Steer Drone to 45 degrees
-  end
 ```

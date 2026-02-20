@@ -97,7 +97,7 @@ sequenceDiagram
     N->>J: Isaac to Hafsa<br/>Get Speed
     J->>P: Isaac to Hafsa<br/>Get Speed
     P->>H: Isaac to Hafsa<br/>Get Speed
-    H->>H: Collect Speed Data,<br/>Trash Message
+    H->>H: Collect Acceleration Data,<br/>Calculate, Trash Message
     H->>A: Hafsa to Isaac<br/>Speed is 3m/s
     A->>L: Hafsa to Isaac<br/>Speed is 3m/s
     L->>S: Hafsa to Isaac<br/>Speed is 3m/s
@@ -137,7 +137,7 @@ sequenceDiagram
     M->>I: Kelton to Isaac<br/>Temperature is 23C
     I->>I: Display "Temperature = 23C"<br/>on OLED screen
 
-    H->>H: Collect Angular Momentum data
+    H->>H: Collect Angular Momentum data, Calculate
     H->>A: Stabilize Arm<br>Camera to 3 degrees
     A->>A: Adjust Camera Servo to<br/>3 degrees, Trash Message
   end

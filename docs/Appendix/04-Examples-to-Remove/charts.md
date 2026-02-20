@@ -45,7 +45,7 @@ sequenceDiagram
   autonumber
   actor U as InPersonUser
   participant I as Isaac<br/>Controller
-  box Blue
+  box SkyBlue
   participant M as Michael<br/>Controller Transceiver
   participant N as Neel<br/>Drone Transceiver
   end

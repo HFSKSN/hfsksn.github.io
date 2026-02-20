@@ -1179,10 +1179,10 @@
   autonumber
   actor U as InPersonUser
   participant I as Isaac&lt;br/&gt;Controller
-  box Blue
+
   participant M as Michael&lt;br/&gt;Controller Transceiver
   participant N as Neel&lt;br/&gt;Drone Transceiver
-  end
+
   participant P as K Phang&lt;br/&gt;Throttle
   participant J as Jacob&lt;br/&gt;Steering
   participant H as Hafsa&lt;br/&gt;Gyroscope &amp; Accelerometer
@@ -1193,7 +1193,8 @@
 
   U--&gt;&gt;I: Steer Drone
   I-&gt;&gt;M: Isaac to Jacob&lt;br/&gt;Steer Drone to 45 degrees
-  M-&gt;&gt;N: 
+  rect rgb(191, 223, 255)
+  M-&gt;&gt;N: Isaac to Jacob&lt;br/&gt;Steer Drone to 45 degrees
   loop Healthcheck
       John-&gt;&gt;John: Fight against hypochondria
   end

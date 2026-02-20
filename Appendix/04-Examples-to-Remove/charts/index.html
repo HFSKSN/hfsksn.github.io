@@ -1180,19 +1180,22 @@
   actor P as InPersonUser
   participant I as Isaac&lt;br/&gt;Controller
   participant M as Michael&lt;br/&gt;Controller Transceiver
-  participant I as Isaac&lt;br/&gt;Controller
-  participant I as Isaac&lt;br/&gt;Controller
-  participant I as Isaac&lt;br/&gt;Controller
-  participant I as Isaac&lt;br/&gt;Controller
+  participant N as Neel&lt;br/&gt;Drone Transceiver
+  participant P as K Phang&lt;br/&gt;Throttle
+  participant J as Jacob&lt;br/&gt;Steering
+  participant H as Hafsa&lt;br/&gt;Gyroscope &amp; Accelerometer
+  participant A as Austin&lt;br/&gt;Camera Arm
+  participant L as Levi&lt;br/&gt;Camera
+  participant S as Seth&lt;br/&gt;Distance Sensor
+  participant K as Kelton&lt;br/&gt;Temperature Sensor
 
   P--&gt;&gt;I: Steer Drone
+  I-&gt;&gt;M: Isaac to Jacob&lt;br/&gt;Steer Drone to 45 degrees
+  M-&gt;&gt;N: 
   loop Healthcheck
       John-&gt;&gt;John: Fight against hypochondria
   end
-  Note right of John: Rational thoughts!
-  John--&gt;&gt;Alice: Great!
-  John-&gt;&gt;Bob: How about you?
-  Bob--&gt;&gt;John: Jolly good!</code></pre>
+  Note right of John: Rational thoughts!</code></pre>
 
 
 

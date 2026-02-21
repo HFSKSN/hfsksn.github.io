@@ -54,7 +54,7 @@ The following sections are the selected major components necessary for the Gyros
 
 1. MPU-6050
 
-    ![](.png)
+    ![](MPU-6050.png)
 
     * $3.69/each
     * [link to product](https://www.digikey.com/en/products/detail/universal-solder-electronics-ltd/26098/26606388)

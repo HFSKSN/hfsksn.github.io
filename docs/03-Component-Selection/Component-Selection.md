@@ -10,15 +10,19 @@ The following sections are the selected major components necessary for the Human
 
 **Voltage Regulator**
 
-1. Custom Circuit
+1. LM7805 Regulator
+
+    ![](lm7805.png)
+
+    * 1.43/each
+    * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM7805MPX-NOPB/6110583)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Components provided by course             | Cannot change voltage setting after it has been soldered         |
-    | Can be deconstructed if needed            | Requires more traces on PCB                                      |
-    |                                           | Components provided need pliers to meet surface mount constraint |
+    | Inexpensive                               | Requires external components                                     |
+    | Meets surface mount constraint of project | Not standard for PIC or ESP32                                    |
 
-2. LM2575 Regulator Circuit
+3. LM2575 Regulator
 
     ![](lm2575.png)
 
@@ -29,7 +33,6 @@ The following sections are the selected major components necessary for the Human
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Provided by course                        | Requires external components                                     |
     | Meets surface mount constraint of project |                                                                  |
-    | Supplies 3.3V                             |                                                                  |
 
 4. BU33UV7NUX-E2 Regulator
 
@@ -41,7 +44,7 @@ The following sections are the selected major components necessary for the Human
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Meets surface mount constraint of project | Requires external components                                     |
-    | Supplies 3.3V                             | 11 solder points                                                 |
+    |                                           | 11 solder points                                                 |
    
 **Rationale:** The course-provided LM2575 regulator circuit is the best fit for this module because it is the easiest since it is already available for testing and development, provides the correct voltage, and only has five solder points.
 

@@ -27,13 +27,13 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Unable to replace parts of circuit if needed                     |
-    | Meets surface mount constraint of project | Takes up space on PCB                                            |
-    | Can change voltage settings after it has been soldered if needed (0V/3.3V/5V) |                              |
+    | Provided by course                        | Requires external components                                     |
+    | Meets surface mount constraint of project |                                                                  |
+    | Supplies 3.3V                             |                                                                  |
 
 4. BU33UV7NUX-E2 Regulator
 
-    ![](846_VSON010X3020_10.jpg)
+    ![](BU33UV7NUX-E2.jpg)
 
     * $1.13/each
     * [link to product](https://www.digikey.com/en/products/detail/rohm-semiconductor/BU33UV7NUX-E2/8125892)
@@ -41,8 +41,9 @@ The following sections are the selected major components necessary for the Human
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Meets surface mount constraint of project | Requires external components                                     |
+    | Supplies 3.3V                             | 11 solder points                                                 |
    
-**Rationale:** The course-provided LM2575 regulator circuit is the best fit for this module because it is the easiest to use for debugging and testing due to it being already prepared for use, it has multiple rails and power settings, and it has a switch to turn power on and off.
+**Rationale:** The course-provided LM2575 regulator circuit is the best fit for this module because it is the easiest since it is already available for testing and development, provides the correct voltage, and only has five solder points.
 
 ### Sensor
 

@@ -19,8 +19,8 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components                                     |
-    | Meets surface mount constraint of project | Not standard for PIC or ESP32                                    |
+    | Meets surface mount constraint of project | Requires external components                                     |
+    |                                           | Not standard for PIC or ESP32                                    |
 
 3. LM2575 Regulator
 
@@ -44,7 +44,7 @@ The following sections are the selected major components necessary for the Human
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Meets surface mount constraint of project | Requires external components                                     |
-    |                                           | 11 solder points                                                 |
+    | Inexpensive                               | 11 solder points                                                 |
    
 **Rationale:** The course-provided LM2575 regulator circuit is the best fit for this module because it is the easiest since it is already available for testing and development, provides the correct voltage, and only has five solder points.
 

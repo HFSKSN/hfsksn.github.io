@@ -50,85 +50,44 @@ The following sections are the selected major components necessary for the Human
 
 ### Sensor
 
-**Interface Inputs**
+**Gyroscope**
 
-1. Pushbutton Switch
+1. MPU-6050
 
-    ![](pushbutton.jpeg)
+    ![](.png)
 
-    * $0.10/each
-    * [link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS02-66-70-BK-100-LCR-D/15634375?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlgyNuYs-cl0PtfhcjKVghZ2g&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuED1I2dSinnbzKlKYw7YbFCBgHToXbUx1UQH2Z5pEn1AzISfxalpZysaAujTEALw_wcB)
+    * $3.69/each
+    * [link to product](https://www.digikey.com/en/products/detail/universal-solder-electronics-ltd/26098/26606388)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Might require de-bounce circuit                                  |
-    | Requires few traces in PCB                | Needs pliers to meet surface mount constraint                    |
-    | Inexpensive                               | May wear down easily                                             |
+    | Gyroscope and accelerometer               | Not surface mounted                                              |
+    | Many resources on how to use with ESP32   |                                                                  |
+    | Component already owned by team           |                                                                  |
 
-2. 10k Potentiometer
+2. BMI323
 
-    ![](PDB181-K220K-104B.jpg)
+    ![](.png)
 
-    * $1.30/each
-    * [link to product](https://www.digikey.com/en/products/detail/bourns-inc/PDB181-K420K-103B/2564744?gclsrc=aw.ds&gad_source=1&gad_campaignid=20504615262&gbraid=0AAAAADrbLlhbZlKJDuY9Fz_HBeq6PPHa2&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEAze5-TDhEY5fqmwQEW-UMyNoQRK8p2a5l4NHsZZxzEn08dejNrVoYaArlTEALw_wcB)
+    * $3.27/each
+    * [link to product](https://www.digikey.com/en/products/detail/bosch-sensortec/BMI323/16719593)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
     | Provided by course                        | Requires external components and support circuitry for interface |
     | Allows for analog input                   | Needs pliers to meet surface mount constraint                    |
 
-3. Joystick Potentiometer
+3. LSM9DS0TR 
 
-    ![](MFG_FJ05K-S1B5KB0.jpg)
+    ![](.png)
 
     * $5.73/each
-    * [link to product](https://www.digikey.com/en/products/detail/favor-electronics/FJ05K-S1B5KB0/16893757?s=N4IgjCBcoExgbFUBjKAzAhgGwM4FMAaEAeygG0QAWABgGYBWAThAF0iAHAFyhAGVOATgEsAdgHMQAX2lA)
+    * [link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/LSM9DS0TR/4311632)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Meets surface mount consraint of project  | Needs several traces and pins                                    |
-    | Allows for multiple analog inputs         | Expensive                                                        |
+    | Accelerometer, Gyroscope, Magnetometer, and Temperature Sensor | Many solder points                          |
+    | 9 Axis                                    | Expensive                                                        |
+    | Surface mounted                           |                                                                  |
 
-**Rationale:** Potentiometers seem to be the best fit for operating the HMI. Using two or more potentiometers will require a few more traces than a pushbutton would but would avoid issues such as debouncing. If needed, however, we can add pushbuttons to the module for minor functions.
-
-### Actuator
-
-**HMI OLED Screen**
-
-1. SSD1306 0.96"
-
-    ![](41qBPSM9XqL._AC_SX425_.jpg)
-
-    * $1/each
-    * [link to product](https://www.amazon.com/Songhe-0-96-inch-I2C-Raspberry/dp/B085WCRS7C/)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Small Screen                                                     |
-    | Compatible with ESP32                     | Needs to be desoldered for surface mount                         |
-
-2. WEX025664BSPP3N00000 3.12"
-
-    ![](MFG_WEX025664BSPP3N00000.jpg)
-
-    * $32.66/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Larger Screen                             | Expensive                                                        |
-    | Meets surface mount constraint of project | Has 30 pins                                                      |
-
-3. NHD-1.27-12896G 1.27"
-
-    ![](MFG_NHD-1.27-12896G.jpg)
-
-    * $60/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | RGB                                       | Expensive                                                        |
-    | Meets surface mount constraint of project | Has 30 pins                                                      |
-
-**Rationale:** The SSD1306 OLED screen is the best option for this project because of how expensive other OLED screens are. Even though the screen is small, we can use multiple OLED screens with each displaying different data for the user if necessary.
+**Rationale:** The MPU-6050 is the best fit for this project because it is designed to be used with the ESP32 and is already able to be tested by our team. Despite the fact that it uses a daughtboard with through-hole pins, the sensor is still able to be used in this project with approval from the professor. It also can be used to meet our stretch goal of calculating speed using the accelerometer.

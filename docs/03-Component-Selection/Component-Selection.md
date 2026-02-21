@@ -33,7 +33,7 @@ The following sections are the selected major components necessary for the Human
 
 4. BU33UV7NUX-E2 Regulator
 
-    ![](BU33UV7NUX-E2.jpg)
+    ![](BU33UV7NUX-E2.png)
 
     * $1.13/each
     * [link to product](https://www.digikey.com/en/products/detail/rohm-semiconductor/BU33UV7NUX-E2/8125892)

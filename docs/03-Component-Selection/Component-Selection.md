@@ -74,8 +74,8 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Accelerometer, Gyroscope, Magnetometer    | Requires external components and support circuitry for interface |
-    | Allows for analog input                   | Needs pliers to meet surface mount constraint                    |
+    | Accelerometer, Gyroscope, Magnetometer    | Requires external components                                     |
+    | Surface mounted                           |                                                                  |
 
 4. LSM9DS0TR 
 
@@ -86,8 +86,8 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Accelerometer, Gyroscope, Magnetometer, and Temperature Sensor | Many solder points                          |
-    | 9 Axis                                    | Expensive                                                        |
-    | Surface mounted                           |                                                                  |
+    | Accelerometer, Gyroscope, Magnetometer, Temperature Sensor | Requires external components                    |
+    | Surface mounted                           | Expensive                                                        |
+    |                                           | Not available on Digikey                                         |
 
 **Rationale:** The MPU-6050 is the best fit for this project because it is designed to be used with the ESP32 and is already able to be tested by our team. Despite the fact that it uses a daughtboard with through-hole pins, the sensor is still able to be used in this project with approval from the professor. It also can be used to meet our stretch goal of calculating speed using the accelerometer.

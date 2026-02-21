@@ -4,7 +4,7 @@ title: Module's Selected Major Components
 
 ## Module's Selected Major Components
 
-The following sections are the selected major components necessary for the Gyroscope module to function. According to the project requirements, this subsystem must have a surface-mounted 3.3 volt switching regulator as well as a sensor which is capable of sending gyroscopic data to the camera arm of the boat and is compatible with either the PIC18 or ESP32
+The following sections are the selected major components necessary for the Gyroscope module to function. According to the project requirements, this subsystem must have a surface-mounted 3.3 volt switching regulator as well as a sensor which is capable of sending gyroscopic data to the camera arm of the boat and is compatible with either the PIC18 or ESP32.
 
 ### Power Management
 

@@ -67,7 +67,7 @@ The following sections are the selected major components necessary for the Human
 
 2. BMI323
 
-    ![](.png)
+    ![](BMI323.png)
 
     * $3.27/each
     * [link to product](https://www.digikey.com/en/products/detail/bosch-sensortec/BMI323/16719593)
@@ -79,7 +79,7 @@ The following sections are the selected major components necessary for the Human
 
 3. LSM9DS0TR 
 
-    ![](.png)
+    ![](LSM9DS0TR.png)
 
     * $5.73/each
     * [link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/LSM9DS0TR/4311632)

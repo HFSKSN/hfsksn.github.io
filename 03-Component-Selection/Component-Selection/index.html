@@ -661,15 +661,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#actuator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Actuator
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -983,15 +974,6 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#actuator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Actuator
-    </span>
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
   
@@ -1108,14 +1090,14 @@
 </ol>
 <p><strong>Rationale:</strong> The course-provided LM2575 regulator circuit is the best fit for this module because it is the easiest since it is already available for testing and development, provides the correct voltage, and only has five solder points.</p>
 <h3 id="sensor">Sensor</h3>
-<p><strong>Interface Inputs</strong></p>
+<p><strong>Gyroscope</strong></p>
 <ol>
 <li>
-<p>Pushbutton Switch</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="pushbutton.jpeg" data-desc-position="bottom"><img alt="" src="pushbutton.jpeg"></a></p>
+<p>MPU-6050</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="" src=".png"></a></p>
 <ul>
-<li>$0.10/each</li>
-<li><a href="https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/TS02-66-70-BK-100-LCR-D/15634375?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20243136172&amp;gbraid=0AAAAADrbLlgyNuYs-cl0PtfhcjKVghZ2g&amp;gclid=Cj0KCQiA7rDMBhCjARIsAGDBuED1I2dSinnbzKlKYw7YbFCBgHToXbUx1UQH2Z5pEn1AzISfxalpZysaAujTEALw_wcB">link to product</a></li>
+<li>$3.69/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/universal-solder-electronics-ltd/26098/26606388">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -1126,26 +1108,26 @@
 </thead>
 <tbody>
 <tr>
-<td>Provided by course</td>
-<td>Might require de-bounce circuit</td>
+<td>Gyroscope and accelerometer</td>
+<td>Not surface mounted</td>
 </tr>
 <tr>
-<td>Requires few traces in PCB</td>
-<td>Needs pliers to meet surface mount constraint</td>
+<td>Many resources on how to use with ESP32</td>
+<td></td>
 </tr>
 <tr>
-<td>Inexpensive</td>
-<td>May wear down easily</td>
+<td>Component already owned by team</td>
+<td></td>
 </tr>
 </tbody>
 </table>
 </li>
 <li>
-<p>10k Potentiometer</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="PDB181-K220K-104B.jpg" data-desc-position="bottom"><img alt="" src="PDB181-K220K-104B.jpg"></a></p>
+<p>BMI323</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="" src=".png"></a></p>
 <ul>
-<li>$1.30/each</li>
-<li><a href="https://www.digikey.com/en/products/detail/bourns-inc/PDB181-K420K-103B/2564744?gclsrc=aw.ds&amp;gad_source=1&amp;gad_campaignid=20504615262&amp;gbraid=0AAAAADrbLlhbZlKJDuY9Fz_HBeq6PPHa2&amp;gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEAze5-TDhEY5fqmwQEW-UMyNoQRK8p2a5l4NHsZZxzEn08dejNrVoYaArlTEALw_wcB">link to product</a></li>
+<li>$3.27/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/bosch-sensortec/BMI323/16719593">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -1167,11 +1149,11 @@
 </table>
 </li>
 <li>
-<p>Joystick Potentiometer</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="MFG_FJ05K-S1B5KB0.jpg" data-desc-position="bottom"><img alt="" src="MFG_FJ05K-S1B5KB0.jpg"></a></p>
+<p>LSM9DS0TR </p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href=".png" data-desc-position="bottom"><img alt="" src=".png"></a></p>
 <ul>
 <li>$5.73/each</li>
-<li><a href="https://www.digikey.com/en/products/detail/favor-electronics/FJ05K-S1B5KB0/16893757?s=N4IgjCBcoExgbFUBjKAzAhgGwM4FMAaEAeygG0QAWABgGYBWAThAF0iAHAFyhAGVOATgEsAdgHMQAX2lA">link to product</a></li>
+<li><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/LSM9DS0TR/4311632">link to product</a></li>
 </ul>
 <table>
 <thead>
@@ -1182,101 +1164,22 @@
 </thead>
 <tbody>
 <tr>
-<td>Meets surface mount consraint of project</td>
-<td>Needs several traces and pins</td>
+<td>Accelerometer, Gyroscope, Magnetometer, and Temperature Sensor</td>
+<td>Many solder points</td>
 </tr>
 <tr>
-<td>Allows for multiple analog inputs</td>
+<td>9 Axis</td>
 <td>Expensive</td>
+</tr>
+<tr>
+<td>Surface mounted</td>
+<td></td>
 </tr>
 </tbody>
 </table>
 </li>
 </ol>
-<p><strong>Rationale:</strong> Potentiometers seem to be the best fit for operating the HMI. Using two or more potentiometers will require a few more traces than a pushbutton would but would avoid issues such as debouncing. If needed, however, we can add pushbuttons to the module for minor functions.</p>
-<h3 id="actuator">Actuator</h3>
-<p><strong>HMI OLED Screen</strong></p>
-<ol>
-<li>
-<p>SSD1306 0.96"</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="41qBPSM9XqL._AC_SX425_.jpg" data-desc-position="bottom"><img alt="" src="41qBPSM9XqL._AC_SX425_.jpg"></a></p>
-<ul>
-<li>$1/each</li>
-<li><a href="https://www.amazon.com/Songhe-0-96-inch-I2C-Raspberry/dp/B085WCRS7C/">link to product</a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Provided by course</td>
-<td>Small Screen</td>
-</tr>
-<tr>
-<td>Compatible with ESP32</td>
-<td>Needs to be desoldered for surface mount</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>WEX025664BSPP3N00000 3.12"</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="MFG_WEX025664BSPP3N00000.jpg" data-desc-position="bottom"><img alt="" src="MFG_WEX025664BSPP3N00000.jpg"></a></p>
-<ul>
-<li>$32.66/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Larger Screen</td>
-<td>Expensive</td>
-</tr>
-<tr>
-<td>Meets surface mount constraint of project</td>
-<td>Has 30 pins</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>NHD-1.27-12896G 1.27"</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="MFG_NHD-1.27-12896G.jpg" data-desc-position="bottom"><img alt="" src="MFG_NHD-1.27-12896G.jpg"></a></p>
-<ul>
-<li>$60/each</li>
-<li><a href="http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366">link to product</a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Pros</th>
-<th>Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>RGB</td>
-<td>Expensive</td>
-</tr>
-<tr>
-<td>Meets surface mount constraint of project</td>
-<td>Has 30 pins</td>
-</tr>
-</tbody>
-</table>
-</li>
-</ol>
-<p><strong>Rationale:</strong> The SSD1306 OLED screen is the best option for this project because of how expensive other OLED screens are. Even though the screen is small, we can use multiple OLED screens with each displaying different data for the user if necessary.</p>
+<p><strong>Rationale:</strong> The MPU-6050 is the best fit for this project because it is designed to be used with the ESP32 and is already able to be tested by our team. Despite the fact that it uses a daughtboard with through-hole pins, the sensor is still able to be used in this project with approval from the professor. It also can be used to meet our stretch goal of calculating speed using the accelerometer.</p>
 
 
 

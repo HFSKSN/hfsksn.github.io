@@ -74,15 +74,15 @@ The following sections are the selected major components necessary for the Human
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Provided by course                        | Requires external components and support circuitry for interface |
+    | Accelerometer, Gyroscope, Magnetometer    | Requires external components and support circuitry for interface |
     | Allows for analog input                   | Needs pliers to meet surface mount constraint                    |
 
-3. LSM9DS0TR 
+4. LSM9DS0TR 
 
     ![](LSM9DS0TR.png)
 
-    * $5.73/each
-    * [link to product](https://www.digikey.com/en/products/detail/stmicroelectronics/LSM9DS0TR/4311632)
+    * $13.47/each
+    * [link to product](https://octopart.com/part/stmicroelectronics/LSM9DS0TR)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |

@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hfsksn.github.io/08-PCB/pcb/</loc>
+         <lastmod>2026-03-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hfsksn.github.io/Appendix/</loc>
          <lastmod>2026-03-06</lastmod>
          <changefreq>daily</changefreq>

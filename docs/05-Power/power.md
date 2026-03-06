@@ -1,8 +1,8 @@
 ---
-title: Power
+title: Power Budget
 ---
 
-## Power Budget
+## Overview
 
 ![](powerbudget.png)
 

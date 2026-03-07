@@ -10,4 +10,4 @@ title: Module's PCB
 
 ## Resources
 
-The project zip file can be found [*here*](EGR314_IndividualSchematic.zip) and the gerber files [*here*](Gerber.zip).
+The project zip file can be found [*here*](EGR314_IndividualSchematic.zip), the pcb as a pdf [*here*](pcb.pdf), and the gerber files [*here*](Gerber.zip).

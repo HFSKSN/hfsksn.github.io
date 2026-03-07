@@ -27,8 +27,8 @@ for<br>
 
 This needs to be updated to reflect a team introduction
 
-* To review the requirements of this module of the project, you can review it in the ["Requirements"](https://hfsksn.github.io/01-Requirements/Requirements/) section of the datasheet.
-* To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://hfsksn.github.io/04-BOM/BOM/) section of the datasheet.
-* To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://hfsksn.github.io/04-BOM/BOM/) section of the datasheet.
-* To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://hfsksn.github.io/04-BOM/BOM/) section of the datasheet.
-* To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://hfsksn.github.io/04-BOM/BOM/) section of the datasheet.
+* To review the requirements of this module of the project, navigate to the ["Requirements"](https://hfsksn.github.io/01-Requirements/Requirements/) section of the datasheet.
+* To review the subsystem concept and its necessary components, navigate to the ["Block Diagram"](https://hfsksn.github.io/02-Block-Diagram/Block-Diagram/) section of the datasheet.
+* To review the details listed of the material used to construct the subsection, navigate to the ["BOM"](https://hfsksn.github.io/04-BOM/BOM/) section of the datasheet.
+* To review the details listed of the material used to construct the subsection, navigate to the ["BOM"](https://hfsksn.github.io/04-BOM/BOM/) section of the datasheet.
+* To review the details listed of the material used to construct the subsection, navigate to the ["BOM"](https://hfsksn.github.io/04-BOM/BOM/) section of the datasheet.

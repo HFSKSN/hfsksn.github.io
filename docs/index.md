@@ -34,4 +34,4 @@ This needs to be updated to reflect a team introduction
 * To review the voltage and current allocation for the module and the power budget calculations, navigate to the ["Power"](https://hfsksn.github.io/05-Power/power/) section of the datasheet.
 * To review the details listed of the material used to construct the subsection, navigate to the ["BOM"](https://hfsksn.github.io/04-BOM/BOM/) section of the datasheet.
 * To review the designed schematic for the module and the various parts of the subsystem, navigate to the ["Schematic"](https://hfsksn.github.io/07-Schematic/schematic/) section of the datasheet.
-* To review the PCB created for the module, navigate to the ["PCB"](https://hfsksn.github.io/08-PCB/pcb/) section of the datasheet.
+* To review the PCB created for the module and its files, navigate to the ["PCB"](https://hfsksn.github.io/08-PCB/pcb/) section of the datasheet.

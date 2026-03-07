@@ -12,4 +12,4 @@ Each student in this course has a $60 budget which is used to purchase the neces
 
 ![](bom.png)
 
-**Figure 1:** Bill of Materials. PDF version [*here*](bom.pdf).
+**Figure 1:** Bill of Materials for Team 201 gyroscope subsystem. PDF version [*here*](bom.pdf).

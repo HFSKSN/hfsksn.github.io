@@ -16,16 +16,15 @@ for<br>
 
 ## Introduction
 
-Team 201 is a group of 10 engineering students in the ASU course EGR314 which will be building a prototype aquatic drone dubbed 'the Duck.' The drone is designed to autonomously navigate the water, gathering data, while having the ability to be manually controlled. The module which I will be designing and manufacturing is apart of Subteam C, the Camera and Camera Positioning subsystems. My subsystem will be designed to satisfy various requirements of the project concept, namely camera stabilization and data gathering. 
+Team 201 is a group of 10 engineering students in the ASU course EGR314 which will be building a prototype aquatic drone dubbed 'the Duck.' The drone is designed to autonomously navigate the water, gathering data, while having the ability to be manually controlled.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://egr314-s-2026-201.github.io/)
+The module which I will be designing and manufacturing is apart of Subteam C, the Camera and Camera Positioning subsystems. My subsystem will be designed to satisfy various requirements of the project concept, namely camera stabilization and data gathering. Further information on the project requirements and subteams can be found in the [team report.](https://egr314-s-2026-201.github.io/)
 
 ### My Contribution
 
-This needs to be updated to reflect a team introduction
+
 
 * To review the requirements of this module of the project, navigate to the ["Requirements"](https://hfsksn.github.io/01-Requirements/Requirements/) section of the datasheet.
 * To review the subsystem concept and its necessary components, navigate to the ["Block Diagram"](https://hfsksn.github.io/02-Block-Diagram/Block-Diagram/) section of the datasheet.

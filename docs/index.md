@@ -16,7 +16,7 @@ for<br>
 
 ## Introduction
 
-* **This needs to be updated so that a reader gets an idea of the purpose of this datasheet.**
+Team 201 is a 10-person group, building a prototype aquatic drone dubbed 'the Duck.' The drone is designed to autonomously navigate the water, gathering data, while having the ability to be manually controlled. The module which I will be designing and manufacturing is apart of Subteam C, the Camera and Camera Positioning subsystems. My subsystem will be designed to satisfy various requirements of the project concept, namely camera stabilization and data gathering. 
 
 ### Project Summary
 

@@ -12,4 +12,4 @@ Written context needs to added!
 
 ![](bom.png)
 
-**Figure 1:** Bill of Materials. PDF version [*here*](PDF_For_BOM_EXAMPLE.pdf).
+**Figure 1:** Bill of Materials. PDF version [*here*](bom.pdf).

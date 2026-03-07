@@ -24,7 +24,7 @@ The module which I will be designing and manufacturing is apart of Subteam C, th
 
 ### My Contribution
 
-
+My contributions to the project can be found by navigating the datasheet. 
 
 * To review the requirements of this module of the project, navigate to the ["Requirements"](https://hfsksn.github.io/01-Requirements/Requirements/) section of the datasheet.
 * To review the subsystem concept and its necessary components, navigate to the ["Block Diagram"](https://hfsksn.github.io/02-Block-Diagram/Block-Diagram/) section of the datasheet.

@@ -8,7 +8,7 @@ tags:
 ## Overview
 Written context needs to added!
 
-## Bill of Materials (Example as Image)
+## Bill of Materials
 
 ![](bom.png)
 

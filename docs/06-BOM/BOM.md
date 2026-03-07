@@ -9,5 +9,7 @@ tags:
 Written context needs to added!
 
 ## Bill of Materials (Example as Image)
-![](bom.png){style width: "2000"}
+
+![](bom.png)
+
 **Figure 1:** Bill of Materials. PDF version [*here*](PDF_For_BOM_EXAMPLE.pdf).

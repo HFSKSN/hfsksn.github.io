@@ -1,5 +1,5 @@
 ---
-title: Module's Selected Microcontroller
+title: Microcontroller Selection
 ---
 
 ## Module's Selected Microcontroller

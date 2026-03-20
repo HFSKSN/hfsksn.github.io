@@ -2,7 +2,7 @@
 title: Module's API
 ---
 
-# Overview
+## Overview
 
 In the daisy chain, the Gyroscope module will be receiving, acting upon, and discarding message 5, Get Speed, from the Controller module. It will also be sending message 8, Adjust Angle, to the Camera Arm module and message 11, Display Speed, to the Controller Module. All other message types will be passed through the chain, and invalid message types will be discarded.
 

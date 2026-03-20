@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#messages" class="md-skip">
+        <a href="#overview" class="md-skip">
           Skip to content
         </a>
       
@@ -914,6 +914,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -941,6 +943,8 @@
 <nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
+  
+    
   
   
     <label class="md-nav__title" for="__toc">
@@ -1047,6 +1051,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1086,10 +1092,164 @@
   
 
 
-  <h1>Module's API</h1>
-
+<h1 id="overview">Overview</h1>
 <h2 id="messages">Messages</h2>
-<p>Angle Adjustment</p>
+<p>Set Camera Angle</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 1-2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>message_type</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>Take Photo</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 1-2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>message_type</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p>Get Speed</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 1-2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>message_type</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p>Get Temperature</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 1-2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>message_type</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p>Get Distance</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 1-2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>message_type</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<p>Adjust Angle</p>
 <table>
 <thead>
 <tr>
@@ -1132,7 +1292,7 @@
 </tr>
 </tbody>
 </table>
-<p>Speed</p>
+<p>Display Speed</p>
 <table>
 <thead>
 <tr>

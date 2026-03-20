@@ -4,7 +4,7 @@ title: Module's API
 
 # Overview
 
-
+In the daisy chain, the Gyroscope module will be receiving, acting upon, and discarding message 5, Get Speed, from the Controller module. It will also be sending message 8, Adjust Angle, to the Camera Arm module and message 11, Display Speed, to the Controller Module. All other message types will be passed through the chain, and invalid message types will be discarded.
 
 ## Messages
 
@@ -60,13 +60,13 @@ Get Distance
 
 Adjust Angle
 
-|               | Byte 1-2 | Byte 3   | Byte 4   |
-|---------------|----------|----------|----------|
-| Variable Name | uint8_t  | uint16_t | uint16_t |
-| Variable Type | uint8_t  | uint16_t | uint16_t |
-| Min Value     | 8        | 0        | 0        |
-| Max Value     | 8        | 360      | 360      |
-| Example       | 8        | 350      | 25       |
+|               | Byte 1-2     | Byte 3   | Byte 4   |
+|---------------|--------------|----------|----------|
+| Variable Name | message_type | x_value  | uint16_t |
+| Variable Type | uint8_t      | uint16_t | uint16_t |
+| Min Value     | 8            | 0        | 0        |
+| Max Value     | 8            | 360      | 360      |
+| Example       | 8            | 350      | 25       |
 
 Display Speed
 

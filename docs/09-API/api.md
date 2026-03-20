@@ -2,9 +2,63 @@
 title: Module's API
 ---
 
+# Overview
+
+
+
 ## Messages
 
-Angle Adjustment
+Set Camera Angle
+
+|               | Byte 1-2     |
+|---------------|--------------|
+| Variable Name | message_type |
+| Variable Type | uint8_t      |
+| Min Value     | 3            |
+| Max Value     | 3            |
+| Example       | 3            |
+
+Take Photo
+
+|               | Byte 1-2     |
+|---------------|--------------|
+| Variable Name | message_type |
+| Variable Type | uint8_t      |
+| Min Value     | 4            |
+| Max Value     | 4            |
+| Example       | 4            |
+
+Get Speed
+
+|               | Byte 1-2     |
+|---------------|--------------|
+| Variable Name | message_type |
+| Variable Type | uint8_t      |
+| Min Value     | 5            |
+| Max Value     | 5            |
+| Example       | 5            |
+
+Get Temperature
+
+|               | Byte 1-2     |
+|---------------|--------------|
+| Variable Name | message_type |
+| Variable Type | uint8_t      |
+| Min Value     | 6            |
+| Max Value     | 6            |
+| Example       | 6            |
+
+Get Distance
+
+|               | Byte 1-2     |
+|---------------|--------------|
+| Variable Name | message_type |
+| Variable Type | uint8_t      |
+| Min Value     | 7            |
+| Max Value     | 7            |
+| Example       | 7            |
+
+Adjust Angle
 
 |               | Byte 1-2 | Byte 3   | Byte 4   |
 |---------------|----------|----------|----------|
@@ -14,7 +68,7 @@ Angle Adjustment
 | Max Value     | 8        | 360      | 360      |
 | Example       | 8        | 350      | 25       |
 
-Speed
+Display Speed
 
 |               | Byte 1-2 | Byte 3  |
 |---------------|----------|---------|
@@ -23,4 +77,3 @@ Speed
 | Min Value     | 11       | 0       |
 | Max Value     | 11       | 20      |
 | Example       | 11       | 3       |
-

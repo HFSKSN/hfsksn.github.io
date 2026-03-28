@@ -67,3 +67,13 @@ Stabilize Arm
 | Min Value     | H         | G           | 8            | -127    | -127    |
 | Max Value     | H         | G           | 8            | 127     | 127     |
 | Example       | H         | G           | 8            | 120     | -25     |
+
+Roll Call
+
+|               | Byte 1       |
+|---------------|--------------|
+| Variable Name | message_type |
+| Variable Type | uint8_t      |
+| Min Value     | 12           |
+| Max Value     | 12           | 
+| Example       | 12           |

@@ -30,13 +30,13 @@ Take Photo
 
 Get Speed
 
-|               | Byte 1    | Byte 2      | Byte 3       |
-|---------------|-----------|-------------|--------------|
-| Variable Name | sender_id | receiver_id | message_type |
-| Variable Type | char      | char        | uint8_t      |
-| Min Value     | A         | H           | 5            |
-| Max Value     | A         | H           | 5            |
-| Example       | A         | H           | 5            |
+|               | Byte 1    | Byte 2      | Byte 3       | Byte 4  |
+|---------------|-----------|-------------|--------------|---------|
+| Variable Name | sender_id | receiver_id | message_type | value   |
+| Variable Type | char      | char        | uint8_t      | uint8_t |
+| Min Value     | A         | H           | 5            | 0       |
+| Max Value     | A         | H           | 5            | 30      |
+| Example       | A         | H           | 5            | 2       |
 
 Get Temperature
 

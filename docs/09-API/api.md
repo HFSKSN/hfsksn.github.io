@@ -10,13 +10,13 @@ In the daisy chain, the Gyroscope module will be receiving, acting upon, and dis
 
 Set Camera Angle
 
-|               | Byte 1-2     |
-|---------------|--------------|
-| Variable Name | message_type |
-| Variable Type | uint8_t      |
-| Min Value     | 3            |
-| Max Value     | 3            |
-| Example       | 3            |
+|               | Byte 1    | Byte 2      | Byte 3       |
+|---------------|-----------|-------------|--------------|
+| Variable Name | sender_id | receiver_id | message_type |
+| Variable Type | char      | char        | uint8_t      |
+| Min Value     | A         | G           | 3            |
+| Max Value     | A         | G           | 3            |
+| Example       | A         | G           | 3            |
 
 Take Photo
 
@@ -65,8 +65,8 @@ Adjust Angle
 | Variable Name | message_type | x_value  | y-value  |
 | Variable Type | uint8_t      | uint16_t | uint16_t |
 | Min Value     | 8            | 0        | 0        |
-| Max Value     | 8            | 360      | 360      |
-| Example       | 8            | 350      | 25       |
+| Max Value     | 8            | 180      | 180      |
+| Example       | 8            | 170      | 25       |
 
 Display Speed
 

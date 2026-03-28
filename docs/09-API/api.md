@@ -34,36 +34,36 @@ Get Speed
 |---------------|-----------|-------------|--------------|---------|
 | Variable Name | sender_id | receiver_id | message_type | value   |
 | Variable Type | char      | char        | uint8_t      | uint8_t |
-| Min Value     | A         | H           | 5            | 0       |
-| Max Value     | A         | H           | 5            | 30      |
-| Example       | A         | H           | 5            | 2       |
-
-Get Temperature
-
-|               | Byte 1-2     |
-|---------------|--------------|
-| Variable Name | message_type |
-| Variable Type | uint8_t      |
-| Min Value     | 6            |
-| Max Value     | 6            |
-| Example       | 6            |
+| Min Value     | H         | A           | 5            | 0       |
+| Max Value     | H         | A           | 5            | 30      |
+| Example       | H         | A           | 5            | 2       |
 
 Get Distance
 
-|               | Byte 1-2     |
-|---------------|--------------|
-| Variable Name | message_type |
-| Variable Type | uint8_t      |
-| Min Value     | 7            |
-| Max Value     | 7            |
-| Example       | 7            |
+|               | Byte 1    | Byte 2      | Byte 3       |
+|---------------|-----------|-------------|--------------|
+| Variable Name | sender_id | receiver_id | message_type |
+| Variable Type | char      | char        | uint8_t      |
+| Min Value     | J         | A           | 6            |
+| Max Value     | J         | A           | 6            |
+| Example       | J         | A           | 6            |
 
-Adjust Angle
+Get Temperature
 
-|               | Byte 1-2     | Byte 3   | Byte 4   |
-|---------------|--------------|----------|----------|
-| Variable Name | message_type | x_value  | y-value  |
-| Variable Type | uint8_t      | int8_t   | int8_t   |
-| Min Value     | 8            | -127     | -127     |
-| Max Value     | 8            | 127      | 127      |
-| Example       | 8            | 120      | -25      |
+|               | Byte 1    | Byte 2      | Byte 3       |
+|---------------|-----------|-------------|--------------|
+| Variable Name | sender_id | receiver_id | message_type |
+| Variable Type | char      | char        | uint8_t      |
+| Min Value     | I         | A           | 7            |
+| Max Value     | I         | A           | 7            |
+| Example       | I         | A           | 7            |
+
+Stabilize Arm
+
+|               | Byte 1    | Byte 2      | Byte 3       | Byte 4  | Byte 5  |
+|---------------|-----------|-------------|--------------|---------|---------|
+| Variable Name | sender_id | receiver_id | message_type | x_value | y_value |
+| Variable Type | char      | char        | uint8_t      | uint8_t | uint8_t |
+| Min Value     | H         | G           | 8            | -127    | -127    |
+| Max Value     | H         | G           | 8            | 127     | 127     |
+| Example       | H         | G           | 8            | 120     | -25     |

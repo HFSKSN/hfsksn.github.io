@@ -20,23 +20,23 @@ Set Camera Angle
 
 Take Photo
 
-|               | Byte 1-2     |
-|---------------|--------------|
-| Variable Name | message_type |
-| Variable Type | uint8_t      |
-| Min Value     | 4            |
-| Max Value     | 4            |
-| Example       | 4            |
+|               | Byte 1    | Byte 2      | Byte 3       |
+|---------------|-----------|-------------|--------------|
+| Variable Name | sender_id | receiver_id | message_type |
+| Variable Type | char      | char        | uint8_t      |
+| Min Value     | A         | F           | 4            |
+| Max Value     | A         | F           | 4            |
+| Example       | A         | F           | 4            |
 
 Get Speed
 
-|               | Byte 1-2     |
-|---------------|--------------|
-| Variable Name | message_type |
-| Variable Type | uint8_t      |
-| Min Value     | 5            |
-| Max Value     | 5            |
-| Example       | 5            |
+|               | Byte 1    | Byte 2      | Byte 3       |
+|---------------|-----------|-------------|--------------|
+| Variable Name | sender_id | receiver_id | message_type |
+| Variable Type | char      | char        | uint8_t      |
+| Min Value     | A         | H           | 5            |
+| Max Value     | A         | H           | 5            |
+| Example       | A         | H           | 5            |
 
 Get Temperature
 
@@ -63,17 +63,7 @@ Adjust Angle
 |               | Byte 1-2     | Byte 3   | Byte 4   |
 |---------------|--------------|----------|----------|
 | Variable Name | message_type | x_value  | y-value  |
-| Variable Type | uint8_t      | uint16_t | uint16_t |
-| Min Value     | 8            | 0        | 0        |
-| Max Value     | 8            | 180      | 180      |
-| Example       | 8            | 170      | 25       |
-
-Display Speed
-
-|               | Byte 1-2     | Byte 3  |
-|---------------|--------------|---------|
-| Variable Name | message_type | value   |
-| Variable Type | uint8_t      | uint8_t |
-| Min Value     | 11           | 0       |
-| Max Value     | 11           | 20      |
-| Example       | 11           | 3       |
+| Variable Type | uint8_t      | int8_t   | int8_t   |
+| Min Value     | 8            | -127     | -127     |
+| Max Value     | 8            | 127      | 127      |
+| Example       | 8            | 120      | -25      |

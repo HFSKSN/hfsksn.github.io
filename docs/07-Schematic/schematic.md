@@ -1,5 +1,5 @@
 ---
-title: Module Schematic
+title: Module Schematic & PCB
 ---
 
 ## Overview
@@ -11,11 +11,14 @@ This schematic is design to support the gyroscope and accelerometer functionalit
 
 **Figure 1:** Gyroscope & Accelerometer Subsystem Schematic
 
+![schematic](schematic.png)
 
----
-title: Module Schematic
----
+**Figure 2:** Gyroscope & Accelerometer Subsystem Schematic
+
+![schematic](schematic.png)
+
+**Figure 3:** Gyroscope & Accelerometer Subsystem Schematic
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](EGR314_IndividualSchematic.pdf), and the Zip folder of the project [*here*](EGR314_IndividualSchematic.zip).
+The schematic as a PDF download is available [*here*](EGR314_IndividualSchematic.pdf), the Zip folder of the project [*here*](EGR314_IndividualSchematic.zip), and the code used to test the sensor and UART communication [*here*](MPU6050_test.zip).

@@ -867,6 +867,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#schematic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schematic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcb" class="md-nav__link">
+    <span class="md-ellipsis">
+      PCB
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#resources" class="md-nav__link">
     <span class="md-ellipsis">
       Resources
@@ -1073,6 +1091,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#schematic" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schematic
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pcb" class="md-nav__link">
+    <span class="md-ellipsis">
+      PCB
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#resources" class="md-nav__link">
     <span class="md-ellipsis">
       Resources
@@ -1108,12 +1144,14 @@
 
 <h2 id="overview">Overview</h2>
 <p>This schematic is design to support the gyroscope and accelerometer functionality of the device using a 3.3 voltage regulator to power the ESP32 and MPU-6050 sensor. The upstream header of the subsystem will receive commands from other subsystems in the UART chain, transmit the gyroscope data to subsystem C2 to adjust the camera arm, and send the accelerometer data down the UART chain to the on-board WiFi subsystem. This project requires that most components including the ESP32 be surface mounted, so the necessary peripherals have been added for microcontroller functionality such as the enable and boot switches as well as the USB port for programmability. Test points, extra headers, LEDs, a debugging switch, and jumpers to switch between shared power and a wall-mounted power supply have also been added to assist with board development.</p>
+<h2 id="schematic">Schematic</h2>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../schematic.png" data-desc-position="bottom"><img alt="schematic" src="../schematic.png"></a></p>
 <p><strong>Figure 1:</strong> Gyroscope &amp; Accelerometer Subsystem Schematic</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PCB_front.png" data-desc-position="bottom"><img alt="schematic" src="../PCB_front.png"></a></p>
-<p><strong>Figure 2:</strong> Gyroscope &amp; Accelerometer Subsystem Schematic</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PCB_back.png" data-desc-position="bottom"><img alt="schematic" src="../PCB_back.png"></a></p>
-<p><strong>Figure 3:</strong> Gyroscope &amp; Accelerometer Subsystem Schematic</p>
+<h2 id="pcb">PCB</h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PCB_front.png" data-desc-position="bottom"><img alt="PCB Front" src="../PCB_front.png"></a></p>
+<p><strong>Figure 2:</strong> Front face of PCB Design in KiCAD 3D viewer</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../PCB_back.png" data-desc-position="bottom"><img alt="PCB Back" src="../PCB_back.png"></a></p>
+<p><strong>Figure 3:</strong> Back face of PCB Design in KiCAD 3D viewer</p>
 <h2 id="resources">Resources</h2>
 <p>The schematic as a PDF download is available <a href="../EGR314_IndividualSchematic.pdf"><em>here</em></a>, the Zip folder of the project <a href="../EGR314_IndividualSchematic.zip"><em>here</em></a>, and the code used to test the sensor and UART communication <a href="../MPU6050_test.zip"><em>here</em></a>.</p>
 

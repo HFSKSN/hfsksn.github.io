@@ -12,6 +12,10 @@ This schematic is design to support the gyroscope and accelerometer functionalit
 **Figure 1:** Gyroscope & Accelerometer Subsystem Schematic
 
 
-## Resouces
+---
+title: Module Schematic
+---
+
+## Resources
 
 The schematic as a PDF download is available [*here*](EGR314_IndividualSchematic.pdf), and the Zip folder of the project [*here*](EGR314_IndividualSchematic.zip).

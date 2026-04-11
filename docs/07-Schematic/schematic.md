@@ -11,11 +11,11 @@ This schematic is design to support the gyroscope and accelerometer functionalit
 
 **Figure 1:** Gyroscope & Accelerometer Subsystem Schematic
 
-![schematic](schematic.png)
+![schematic](PCB_front.png)
 
 **Figure 2:** Gyroscope & Accelerometer Subsystem Schematic
 
-![schematic](schematic.png)
+![schematic](PCB_back.png)
 
 **Figure 3:** Gyroscope & Accelerometer Subsystem Schematic
 

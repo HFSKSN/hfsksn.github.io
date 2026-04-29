@@ -41,22 +41,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hfsksn.github.io/08-API/api/</loc>
+         <loc>https://hfsksn.github.io/08-PCB/PCB/</loc>
          <lastmod>2026-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hfsksn.github.io/09-Hardware-V2.0/v2/</loc>
+         <loc>https://hfsksn.github.io/09-API/api/</loc>
          <lastmod>2026-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hfsksn.github.io/10-Resources/resources/</loc>
+         <loc>https://hfsksn.github.io/10-Hardware-V2.0/v2/</loc>
          <lastmod>2026-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hfsksn.github.io/11-Reflection/reflection/</loc>
+         <loc>https://hfsksn.github.io/11-Resources/resources/</loc>
+         <lastmod>2026-04-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hfsksn.github.io/12-Reflection/reflection/</loc>
          <lastmod>2026-04-29</lastmod>
          <changefreq>daily</changefreq>
     </url>

@@ -14,17 +14,6 @@ The subsystem schematic was converted into a PCB design using the KiCAD editor. 
 
 **Figure 1:** Gyroscope & Accelerometer Subsystem Schematic
 
-## PCB
-
-![PCB Front](PCB_front.png)
-
-**Figure 2:** Front face of PCB Design in KiCAD 3D viewer
-
-
-![PCB Back](PCB_back.png)
-
-**Figure 3:** Back face of PCB Design in KiCAD 3D viewer
-
 ## Resources
 
 The schematic as a PDF download is available [*here*](EGR314_IndividualSchematic.pdf), the pcb as a pdf [*here*](pcb.pdf), the gerber files [*here*](Gerber.zip), the Zip folder of the project [*here*](EGR314_IndividualSchematic.zip), and the code used to test the sensor and UART communication [*here*](MPU6050_test.zip).

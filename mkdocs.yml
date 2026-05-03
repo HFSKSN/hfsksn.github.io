@@ -78,7 +78,7 @@ nav:
   - Power Budget: 05-Power/power.md
   - Schematic: 07-Schematic/schematic.md
   - BOM: 06-BOM/BOM.md
-  - PCB: 08-PCB/pcb.md
+  - PCB: 08-PCB/PCB.md
   - API: 09-API/api.md
   - Hardware Version 2.0: 10-Hardware-V2.0/v2.md
   - Resources: 11-Resources/resources.md

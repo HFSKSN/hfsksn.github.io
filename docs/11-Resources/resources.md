@@ -4,7 +4,7 @@ title: Project Resources
 
 ## Code
 
-The .zip file containing the finalized project code for this module is available [*here*](finalcode.zip)
+The .zip file containing the finalized Arduino code for this module's ESP32 is available [*here*](finalcode.zip)
 
 ## CAD Model
 

@@ -1,4 +1,10 @@
+---
+title: Module PCB
+---
 
+## Overview
+
+The subsystem schematic was converted into a PCB design using the KiCAD editor. Footprints for each component was taken from datasheets in found in the links located in the BOM, standard footprints from Kicad libraries, or my own footprint designs. The PCB was then checked for errors in the built-in DRC as well as the JLCDFM, and its gerber files were then sent to JLCPCB for manufacturing.
 
 ## PCB
 
@@ -28,4 +34,4 @@
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](EGR314_IndividualSchematic.pdf), the pcb as a pdf [*here*](pcb.pdf), the gerber files [*here*](Gerber.zip), the Zip folder of the project [*here*](EGR314_IndividualSchematic.zip), and the code used to test the sensor and UART communication [*here*](MPU6050_test.zip).
+The PCB as a pdf download is available [*here*](pcb.pdf), the gerber files [*here*](Gerber.zip), the Zip folder of the project [*here*](EGR314_IndividualSchematic.zip), and the code used to test the sensor and UART communication [*here*](MPU6050_test.zip).

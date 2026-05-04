@@ -24,9 +24,9 @@ There were mutliple parts of the project I struggled with but was able to overco
 5. Thoroughly document all successful tests for the project, it will help in case something stops working.
 6. Order extra parts not only for the individual module but for the whole team in case components break, go missing, or there isn't enough for everyone.
 7. Review and re-review assignments and deliverables, it is easy to miss something and get points off because there is so much to do.
-8. Meet with the team outside of class, this allows for longer and more thorough testing sessions between the modules.
-9. 
-10. 
+8. Meet with the team outside of class regularly, these sessions allows for longer and more thorough testing sessions between the modules.
+9. Have more organized communication within the team, there were cases where some members were not aware of specific requirements for the project or their module until the end of the project.
+10. Keep the team apprised of any issues with the module, this will help keep the project developing and everyone on the same track if changes need to be made.
 
 ## Recommendations for Future Students
 

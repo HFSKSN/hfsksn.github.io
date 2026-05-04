@@ -12,11 +12,21 @@ dfghj
 
 ## Lessons Learned
 
-1. Do not rush through reviewing datasheets of components, you may make a mistake in designing your PCB layout
-2. Start testing code with other modules as soon as possible to ensure all aspects of the module are in order
+1. Do not rush through reviewing datasheets of components, you may make a mistake in designing your PCB layout.
+2. Start testing full code as soon as possible to ensure all aspects of the module are in order.
+3. Test with other modules as soon as possible to ensure all aspects of
+4.
+5.
+6.
+7.
+8.
+9.
+10. 
 
 ## Recommendations for Future Students
 
 1. sfev
 2. sfvvf
-3. 
+3.
+4.
+5.

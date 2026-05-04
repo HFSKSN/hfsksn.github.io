@@ -8,14 +8,14 @@ The Gyroscope module was largely successful. The basic requirements for the proj
 
 ## Module Startup Tips
 
-dfghj
+There were mutliple parts of the project I struggled with but was able to overcome. One issue that I had was that many of the course's setup and coding guides for the ESP32-S3 were outdated, so I had to work around that through researching and working with my group.
 
 ## Lessons Learned
 
 1. Do not rush through reviewing datasheets of components, you may make a mistake in designing your PCB layout.
 2. Start testing full code as soon as possible to ensure all aspects of the module are in order.
-3. Test with other modules as soon as possible to ensure all aspects of
-4.
+3. Test with other modules as soon as possible to ensure all aspects of communication and message structure are in order.
+4. 
 5.
 6.
 7.
@@ -25,8 +25,8 @@ dfghj
 
 ## Recommendations for Future Students
 
-1. sfev
+1. Do your research, your project will end up better if you are thorough when choosing the project concept and which major components to use.
 2. sfvvf
-3.
-4.
-5.
+3. Talk to the professor or TAs when you need help, their experience will likely guide you to better solutions and help you fix your problems faster. 
+4. Choose your group wisely, otherwise you may be building a project you don't want to build or doing a large amount of the work.
+5. Do not be afraid to rely on your group, their help and feedback may help make the project and your module better than if you had done it solo.

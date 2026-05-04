@@ -20,8 +20,8 @@ There were mutliple parts of the project I struggled with but was able to overco
 1. Do not rush through reviewing datasheets of components, you may make a mistake in designing your PCB layout.
 2. Start testing full code as soon as possible to ensure all aspects of the module are in order.
 3. Test with other modules as soon as possible to ensure all aspects of communication and message structure are in order.
-4. 
-5.
+4. Start planning out and building the housing for your project as soon as possible, you will not have enough time to make a proper one if you start on it last.
+5. 
 6.
 7.
 8.
@@ -31,7 +31,7 @@ There were mutliple parts of the project I struggled with but was able to overco
 ## Recommendations for Future Students
 
 1. Do your research, your project will end up better if you are thorough when choosing the project concept and which major components to use.
-2. sfvvf
+2. In order to prepare for capstone, challenge yourself and do not settle for the bare minimum because it likely will not be enough for next year.
 3. Talk to the professor or TAs when you need help, their experience will likely guide you to better solutions and help you fix your problems faster. 
 4. Choose your group wisely, otherwise you may be building a project you don't want to build or doing a large amount of the work.
 5. Do not be afraid to rely on your group, their help and feedback may help make the project and your module better than if you had done it solo.

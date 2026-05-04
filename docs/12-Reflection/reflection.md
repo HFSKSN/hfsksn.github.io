@@ -10,7 +10,10 @@ The Gyroscope module was largely successful. The basic requirements for the proj
 
 There were mutliple parts of the project I struggled with but was able to overcome. 
 
-One issue that I had was that many of the course's setup and coding guides for the ESP32-S3 were outdated, so I had to work around that through researching and working with my group. I also had to switch groups early on in the project due to being burdened with a larger share of the work, so trying to catch up to my new group made it difficult to take the time to flesh out the concept for my module, though it did work out in the end.
+- One issue that I had was that many of the course's setup and coding guides for the ESP32-S3 were outdated, so I had to work around that through researching and working with my group. If you are using the ESP32 over the PIC, I recommend using the guides available on the internet instead.
+- I also had to switch groups early on in the project due to being burdened with a larger share of the work, so trying to catch up to my new group made it difficult to take the time to flesh out the concept for my module, though it did work out in the end. I would recommend paying extra attention when picking a group for this semester.
+- Micropython in Pymakr caused many issues for my group members and myself, so, if using the ESP32, I would also recommend switching over to C in the Arduino IDE for the project given that the ESP32 is primarily designed to be used with this software.
+- There are many other niche issues that I experienced throughout the project, such as having to enable the USB CDC setting in Arduino to see my serial monitor but then having to disable it for the code to work dependent of the IDE, a quirk I have never experienced with the IDE despite having used it several times before. This project is likely new territory for most students, so, again, be sure to research solutions and don't give up. 
 
 ## Lessons Learned
 

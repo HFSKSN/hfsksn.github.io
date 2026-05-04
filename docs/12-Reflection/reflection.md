@@ -8,7 +8,7 @@ The Gyroscope module was largely successful. The basic requirements for the proj
 
 ## Module Startup Tips
 
-There were mutliple parts of the project I struggled with but was able to overcome. 
+There were mutliple parts of the project I struggled with but was able to overcome: 
 
 - One issue that I had was that many of the course's setup and coding guides for the ESP32-S3 were outdated, so I had to work around that through researching and working with my group. If you are using the ESP32 over the PIC, I recommend using the guides available on the internet instead.
 - I also had to switch groups early on in the project due to being burdened with a larger share of the work, so trying to catch up to my new group made it difficult to take the time to flesh out the concept for my module, though it did work out in the end. I would recommend paying extra attention when picking a group for this semester.

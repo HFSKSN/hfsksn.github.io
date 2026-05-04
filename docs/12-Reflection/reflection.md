@@ -20,12 +20,12 @@ There were mutliple parts of the project I struggled with but was able to overco
 1. Do not rush through reviewing datasheets of components, you may make a mistake in designing your PCB layout.
 2. Start testing full code as soon as possible to ensure all aspects of the module are in order.
 3. Test with other modules as soon as possible to ensure all aspects of communication and message structure are in order.
-4. Start planning out and building the housing for your project as soon as possible, you will not have enough time to make a proper one if you start on it last.
-5. 
-6.
-7.
-8.
-9.
+4. Start planning out and building the housing for the project as soon as possible, there will not be enough time to make a proper one if it is left for last.
+5. Thoroughly document all successful tests for the project, it will help in case something stops working.
+6. Order extra parts not only for the individual module but for the whole team in case components break, go missing, or there isn't enough for everyone.
+7. Review and re-review assignments and deliverables, it is easy to miss something and get points off because there is so much to do.
+8. Meet with the team outside of class, this allows for longer and more thorough testing sessions between the modules.
+9. 
 10. 
 
 ## Recommendations for Future Students

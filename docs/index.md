@@ -36,7 +36,7 @@ My contributions to the project can be reviewed by navigating the datasheet.
 * To review the details listed of the material used to construct the subsection, navigate to the ["BOM"](https://hfsksn.github.io/06-BOM/BOM/) section of the datasheet.
 * To review the designed schematic for the module and the various parts of the subsystem, navigate to the ["Schematic"](https://hfsksn.github.io/07-Schematic/schematic/) section of the datasheet.
 * To review the PCB created for the module and its files, navigate to the ["PCB"](https://hfsksn.github.io/08-PCB/pcb/) section of the datasheet.
-* To review the API created for the module and its files, navigate to the ["API"](https://hfsksn.github.io/09-API/api/) section of the datasheet.
+* To review the module's message types and structure, navigate to the ["API"](https://hfsksn.github.io/09-API/api/) section of the datasheet.
 * To review the functionality of the module and potential changes to create an improved version, navigate to the ["Version 2.0"](https://hfsksn.github.io/10-Hardware-V2.0/v2/) section of the datasheet.
 * To review this module's code as well as CAD models I created for the project, navigate to the ["Resources"](https://hfsksn.github.io/08-PCB/pcb/) section of the datasheet.
 * To review my reflection for this project and recommendations to future students, navigate to the ["Reflection"](https://hfsksn.github.io/12-Reflection/reflection/) section of the datasheet.

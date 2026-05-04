@@ -14,6 +14,8 @@ for<br>
 **Submission: May 04, 2026**
 </center>
 
+![Module Image](08-PCB/PCB_front2.png)
+
 ## Introduction
 
 Team 201 is a group of 10 engineering students in the ASU course EGR314 which will be building a prototype aquatic drone dubbed 'the Duck.' The drone is designed to autonomously navigate the water, gathering data, while having the ability to be manually controlled.
